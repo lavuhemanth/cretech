@@ -3,49 +3,49 @@ import { Link } from 'react-router-dom'
 // import OwlCarousel from 'react-owl-carousel';
 import BG1 from '../../../assets/images/background/service-1-bg-1.png'
 import BG2 from '../../../assets/images/shapes/about-three-s-1.png'
-import BG3 from '../../../assets/images/shapes/testi-bg-2-1.png'
+// import BG3 from '../../../assets/images/shapes/testi-bg-2-1.png'
 import imgs1 from "../../../assets/images/services/service-1-5.jpg";
 import Breadcumb from '../../Breadcumb/Main';
 import img3 from "../../../assets/images/resources/about-three-1-1.jpg";
 
 const Service2 = () => {
-  const logoOptions = {
-    loop: true,
-    autoplay: true,
-    autoplayTimeout: 5000,
-    autoplayHoverPause: true,
-    nav: false,
-    dots: false,
-    margin: 30,
-    items: 2,
-    smartSpeed: 700,
-    responsive: {
-      0: {
-        margin: 30,
-        items: 2
-      },
-      375: {
-        margin: 30,
-        items: 2
-      },
-      575: {
-        margin: 30,
-        items: 3
-      },
-      767: {
-        margin: 50,
-        items: 4
-      },
-      991: {
-        margin: 40,
-        items: 5
-      },
-      1199: {
-        margin: 80,
-        items: 5
-      }
-    }
-  }
+  // const logoOptions = {
+  //   loop: true,
+  //   autoplay: true,
+  //   autoplayTimeout: 5000,
+  //   autoplayHoverPause: true,
+  //   nav: false,
+  //   dots: false,
+  //   margin: 30,
+  //   items: 2,
+  //   smartSpeed: 700,
+  //   responsive: {
+  //     0: {
+  //       margin: 30,
+  //       items: 2
+  //     },
+  //     375: {
+  //       margin: 30,
+  //       items: 2
+  //     },
+  //     575: {
+  //       margin: 30,
+  //       items: 3
+  //     },
+  //     767: {
+  //       margin: 50,
+  //       items: 4
+  //     },
+  //     991: {
+  //       margin: 40,
+  //       items: 5
+  //     },
+  //     1199: {
+  //       margin: 80,
+  //       items: 5
+  //     }
+  //   }
+  // }
   return (
     <>
       <Breadcumb Title="Services" Breadcumb="SERVICES" />

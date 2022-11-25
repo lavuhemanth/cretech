@@ -72,70 +72,70 @@ const Home = () => {
         autoplayTimeout: 7000,
         autoplayHoverPause: false
     }
-    const projectOptions = {
-        loop: true,
-        autoplay: true,
-        autoplayTimeout: 5000,
-        autoplayHoverPause: true,
-        nav: true,
-        navText: ["<span class=\"fa-solid fa-angle-left\"></span>", "<span class=\"fa-solid fa-angle-right\"></span>"],
-        dots: false,
-        margin: 0,
-        items: 1,
-        smartSpeed: 700,
-        responsive: {
-            0: {
-                margin: 0,
-                items: 1
-            },
-            768: {
-                margin: 30,
-                items: 2
-            },
-            992: {
-                margin: 30,
-                items: 3
-            }
-        }
-    }
-    const logoOptions = {
-        loop: true,
-        autoplay: true,
-        autoplayTimeout: 5000,
-        autoplayHoverPause: true,
-        nav: true,
-        navText: ["<span class=\"fa-solid fa-angle-left\"></span>", "<span class=\"fa-solid fa-angle-right\"></span>"],
-        dots: false,
-        margin: 30,
-        items: 2,
-        smartSpeed: 700,
-        responsive: {
-            0: {
-                margin: 30,
-                items: 2
-            },
-            375: {
-                margin: 30,
-                items: 2
-            },
-            575: {
-                margin: 30,
-                items: 3
-            },
-            767: {
-                margin: 50,
-                items: 4
-            },
-            991: {
-                margin: 40,
-                items: 5
-            },
-            1199: {
-                margin: 80,
-                items: 5
-            }
-        }
-    }
+    // const projectOptions = {
+    //     loop: true,
+    //     autoplay: true,
+    //     autoplayTimeout: 5000,
+    //     autoplayHoverPause: true,
+    //     nav: true,
+    //     navText: ["<span class=\"fa-solid fa-angle-left\"></span>", "<span class=\"fa-solid fa-angle-right\"></span>"],
+    //     dots: false,
+    //     margin: 0,
+    //     items: 1,
+    //     smartSpeed: 700,
+    //     responsive: {
+    //         0: {
+    //             margin: 0,
+    //             items: 1
+    //         },
+    //         768: {
+    //             margin: 30,
+    //             items: 2
+    //         },
+    //         992: {
+    //             margin: 30,
+    //             items: 3
+    //         }
+    //     }
+    // }
+    // const logoOptions = {
+    //     loop: true,
+    //     autoplay: true,
+    //     autoplayTimeout: 5000,
+    //     autoplayHoverPause: true,
+    //     nav: true,
+    //     navText: ["<span class=\"fa-solid fa-angle-left\"></span>", "<span class=\"fa-solid fa-angle-right\"></span>"],
+    //     dots: false,
+    //     margin: 30,
+    //     items: 2,
+    //     smartSpeed: 700,
+    //     responsive: {
+    //         0: {
+    //             margin: 30,
+    //             items: 2
+    //         },
+    //         375: {
+    //             margin: 30,
+    //             items: 2
+    //         },
+    //         575: {
+    //             margin: 30,
+    //             items: 3
+    //         },
+    //         767: {
+    //             margin: 50,
+    //             items: 4
+    //         },
+    //         991: {
+    //             margin: 40,
+    //             items: 5
+    //         },
+    //         1199: {
+    //             margin: 80,
+    //             items: 5
+    //         }
+    //     }
+    // }
     return (
       <>
         <div className="slider-one">

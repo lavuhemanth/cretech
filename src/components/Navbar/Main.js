@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import Logo from '../../assets/images/logo-dark.png'
-import WOW from 'wowjs'
+// import WOW from 'wowjs'
 
 const Navbar = () => {
     const location = useLocation()
@@ -11,23 +11,23 @@ const Navbar = () => {
 
     const [menu, setmenu] = useState({})
 
-    const activeMenu = () => {
-        if(path === "/" || path === "/home-02" || path === "/home-03" ){
-            setmenu({home:true})
-        }else if(path === "/about" || path === "/team"){
-            setmenu({pages:true})
-        }else if(path === "/service-01" || path === "/service-02" || path === "qa-testing" || path === "/it-management" || path === "cyber-security" || path === "/it-consultant" || path === "/infrastructure-plan"){
-            setmenu({services:true})
-        }else if(path === "/projects" || path === "/project-details"){
-            setmenu({project:true})
-        }else if(path === "/blog" || path === "/blog-details"){
-            setmenu({blog:true})
-        }else if(path === "/contact"){
-            setmenu({contact:true})
-        }else{
-            setmenu({home:true})
-        }
-    }
+    // const activeMenu = () => {
+    //     if(path === "/" || path === "/home-02" || path === "/home-03" ){
+    //         setmenu({home:true})
+    //     }else if(path === "/about" || path === "/team"){
+    //         setmenu({pages:true})
+    //     }else if(path === "/service-01" || path === "/service-02" || path === "qa-testing" || path === "/it-management" || path === "cyber-security" || path === "/it-consultant" || path === "/infrastructure-plan"){
+    //         setmenu({services:true})
+    //     }else if(path === "/projects" || path === "/project-details"){
+    //         setmenu({project:true})
+    //     }else if(path === "/blog" || path === "/blog-details"){
+    //         setmenu({blog:true})
+    //     }else if(path === "/contact"){
+    //         setmenu({contact:true})
+    //     }else{
+    //         setmenu({home:true})
+    //     }
+    // }
 
     useEffect(() => {
         window.addEventListener("scroll", isSticky);

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import Logo from '../../assets/images/logo-light.png'
-import emailjs from 'emailjs-com';
+// import emailjs from 'emailjs-com';
 
 const Footer = () => {
     const location = useLocation();

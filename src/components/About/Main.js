@@ -1,6 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import OwlCarousel from 'react-owl-carousel';
+// import { Link } from 'react-router-dom'
+// import OwlCarousel from 'react-owl-carousel';
 // import BG1 from '../../assets/images/background/cta-two-bg-1-1.jpg'
 import BG3 from '../../assets/images/resources/about-four-1-3.jpg';
 // import BG2 from '../../assets/images/shapes/testi-bg-1-1.png';
@@ -17,44 +17,44 @@ import Breadcumb from '../Breadcumb/Main'
 // import { Parallax } from 'react-parallax'
 
 const About = () => {
-    const logoOptions = {
-        loop: true,
-        autoplay: true,
-        autoplayTimeout: 5000,
-        autoplayHoverPause: true,
-        nav: true,
-        navText: ["<span class=\"fa-solid fa-angle-left\"></span>", "<span class=\"fa-solid fa-angle-right\"></span>"],
-        dots: false,
-        margin: 30,
-        items: 2,
-        smartSpeed: 700,
-        responsive: {
-            0: {
-                margin: 30,
-                items: 2
-            },
-            375: {
-                margin: 30,
-                items: 2
-            },
-            575: {
-                margin: 30,
-                items: 3
-            },
-            767: {
-                margin: 50,
-                items: 4
-            },
-            991: {
-                margin: 40,
-                items: 5
-            },
-            1199: {
-                margin: 80,
-                items: 5
-            }
-        }
-    }
+    // const logoOptions = {
+    //     loop: true,
+    //     autoplay: true,
+    //     autoplayTimeout: 5000,
+    //     autoplayHoverPause: true,
+    //     nav: true,
+    //     navText: ["<span class=\"fa-solid fa-angle-left\"></span>", "<span class=\"fa-solid fa-angle-right\"></span>"],
+    //     dots: false,
+    //     margin: 30,
+    //     items: 2,
+    //     smartSpeed: 700,
+    //     responsive: {
+    //         0: {
+    //             margin: 30,
+    //             items: 2
+    //         },
+    //         375: {
+    //             margin: 30,
+    //             items: 2
+    //         },
+    //         575: {
+    //             margin: 30,
+    //             items: 3
+    //         },
+    //         767: {
+    //             margin: 50,
+    //             items: 4
+    //         },
+    //         991: {
+    //             margin: 40,
+    //             items: 5
+    //         },
+    //         1199: {
+    //             margin: 80,
+    //             items: 5
+    //         }
+    //     }
+    // }
     return (
       <>
         <Breadcumb Title="About Us" Breadcumb="ABOUT" imgSrc={BG3} />
