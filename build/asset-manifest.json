@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4aed80d2.css",
-    "main.js": "/static/js/main.2f861fef.js",
+    "main.js": "/static/js/main.34599c3e.js",
     "static/js/787.c93cf46c.chunk.js": "/static/js/787.c93cf46c.chunk.js",
     "static/media/slider-1-2.jpg": "/static/media/slider-1-2.ab0d75a2b33a247338b6.jpg",
     "static/media/slider-1-1.jpg": "/static/media/slider-1-1.95ceca47fa93b99497d4.jpg",
@@ -18,12 +18,10 @@
     "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.e615bbcb258550973c16.ttf",
     "static/media/about-five-1-2.jpg": "/static/media/about-five-1-2.e5e4b17918a58e9ae073.jpg",
     "static/media/ip-1-3.png": "/static/media/ip-1-3.3a0c29508a03e634aaa1.png",
-    "static/media/page-header-bg-1-1.jpg": "/static/media/page-header-bg-1-1.4618a4b1962c7a999c9c.jpg",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.b823fc0dbb5a5f0c21bb.ttf",
     "static/media/service-four-bg-1-1.png": "/static/media/service-four-bg-1-1.dd9e7eadb212a26fae83.png",
     "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.59edf72a325ac2048d60.woff2",
     "static/media/itc-1-1.jpg": "/static/media/itc-1-1.0ba34d1ae0a64a1d13b5.jpg",
-    "static/media/testi-bg-2-1.png": "/static/media/testi-bg-2-1.21ec3a3f26b29d1fa9c0.png",
     "static/media/icomoon.svg?cly5fl": "/static/media/icomoon.cd415f6d3028601a231d.svg",
     "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.ebb7a127d2d8ee6f1832.woff2",
     "static/media/contact-one-bg-1-1.png": "/static/media/contact-one-bg-1-1.eb94dbf05b560945a7d0.png",
@@ -51,11 +49,11 @@
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.afac89562a5301459069.woff2",
     "index.html": "/index.html",
     "main.4aed80d2.css.map": "/static/css/main.4aed80d2.css.map",
-    "main.2f861fef.js.map": "/static/js/main.2f861fef.js.map",
+    "main.34599c3e.js.map": "/static/js/main.34599c3e.js.map",
     "787.c93cf46c.chunk.js.map": "/static/js/787.c93cf46c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4aed80d2.css",
-    "static/js/main.2f861fef.js"
+    "static/js/main.34599c3e.js"
   ]
 }

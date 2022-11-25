@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from 'react'
-import { Link, useLocation } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import Logo from '../../assets/images/logo-dark.png'
 // import WOW from 'wowjs'
 
 const Navbar = () => {
-    const location = useLocation()
-    const path = location.pathname
+    // const location = useLocation()
+    // const path = location.pathname
     const [sticky, setSticky] = useState(false)
     const [search, setSearch] = useState(false)
 
-    const [menu, setmenu] = useState({})
+    const [menu] = useState({})
 
     // const activeMenu = () => {
     //     if(path === "/" || path === "/home-02" || path === "/home-03" ){
