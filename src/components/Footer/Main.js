@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import Logo from '../../assets/images/logo-light.png'
+import Logo from '../../assets/images/Desktop.png'
 // import emailjs from 'emailjs-com';
 
 const Footer = () => {
@@ -26,7 +26,7 @@ const Footer = () => {
               <div className="col-lg-3 col-md-6 col-sm-12">
                 <div className="footer-widget footer-widget--about">
                   <Link to="/" className="footer-widget__logo">
-                    <img src={Logo} width="119" height="40" alt="Cretech" />
+                    <img src={Logo} width="139" height="70" alt="Sreeson" />
                   </Link>
                   <p className="footer-widget__text">
                     We work with a passion of taking challenges and creating new
@@ -132,7 +132,7 @@ const Footer = () => {
           <div className="container">
             <p>
               &copy; All Copyright <span className="dynamic-year"></span> by
-              Cretech
+              Sreeson's
             </p>
           </div>
         </div>

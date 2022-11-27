@@ -1,5 +1,5 @@
 /**
- * CreTech - IT Solutions & Technology React Template
+ * Sreeson - IT Solutions & Technology React Template
  *
  * This file contains all theme JS functions
  *

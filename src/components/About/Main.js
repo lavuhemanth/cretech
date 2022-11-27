@@ -80,7 +80,7 @@ const About = () => {
                     </h2>
                   </div>
                   <div className="about-four__text">
-                    The top minds at CRETECH have extensive experience and
+                    The top minds at SREESON have extensive experience and
                     knowledge in the IT field. With our strategic IT consulting,
                     we can help you develop a comprehensive IT strategy for your
                     company's digital and technological transformation that is

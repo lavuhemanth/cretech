@@ -21,7 +21,7 @@ const QATesting = () => {
     {
       question: "Manual Testing",
       answer:
-        "At CRETECH, we provide risk-based manual testing across all device combinations that support all development models. This allows our clients to get the most comprehensive testing for their products before release. Manual testing is essential to catch any potential bugs or user experience issues that may occur. Our team of experienced testers will work with you to create a testing plan that meets your specific needs and ensures that your product is ready for release.",
+        "At SREESON, we provide risk-based manual testing across all device combinations that support all development models. This allows our clients to get the most comprehensive testing for their products before release. Manual testing is essential to catch any potential bugs or user experience issues that may occur. Our team of experienced testers will work with you to create a testing plan that meets your specific needs and ensures that your product is ready for release.",
     },
     {
       question: "Performance Testing",
@@ -62,17 +62,17 @@ const QATesting = () => {
               <h3 className="service-details__title">QA Testing</h3>
               <div className="service-details__content">
                 <p>
-                  Cretech is a software testing and QA services company
+                  Sreeson is a software testing and QA services company
                   dedicated to helping startups and large enterprises achieve
                   seamless digital transformation. With a secure infrastructure
                   and the right tools, we have the testing capability to serve
                   global customers and spread more smiles.
                 </p>
                 <h4>
-                  CRETECH is the Leader in Software Testing and QA Services.
+                  SREESON is the Leader in Software Testing and QA Services.
                 </h4>
                 <p>
-                  At CRETECH, we provide software testing and quality assurance
+                  At SREESON, we provide software testing and quality assurance
                   services that help you ensure your products are defect-free
                   and meet the highest quality standards. With over a decade of
                   experience, we have the expertise and resources to help.

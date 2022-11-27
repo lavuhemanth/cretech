@@ -1,33 +1,33 @@
 import React, { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
-import Logo from '../../assets/images/logo-dark.png'
-// import WOW from 'wowjs'
+import { Link, useLocation } from 'react-router-dom'
+import Logo from '../../assets/images/Desktop.png'
+import WOW from 'wowjs'
 
 const Navbar = () => {
-    // const location = useLocation()
-    // const path = location.pathname
+    const location = useLocation()
+    const path = location.pathname
     const [sticky, setSticky] = useState(false)
     const [search, setSearch] = useState(false)
 
-    const [menu] = useState({})
+    const [menu, setmenu] = useState({})
 
-    // const activeMenu = () => {
-    //     if(path === "/" || path === "/home-02" || path === "/home-03" ){
-    //         setmenu({home:true})
-    //     }else if(path === "/about" || path === "/team"){
-    //         setmenu({pages:true})
-    //     }else if(path === "/service-01" || path === "/service-02" || path === "qa-testing" || path === "/it-management" || path === "cyber-security" || path === "/it-consultant" || path === "/infrastructure-plan"){
-    //         setmenu({services:true})
-    //     }else if(path === "/projects" || path === "/project-details"){
-    //         setmenu({project:true})
-    //     }else if(path === "/blog" || path === "/blog-details"){
-    //         setmenu({blog:true})
-    //     }else if(path === "/contact"){
-    //         setmenu({contact:true})
-    //     }else{
-    //         setmenu({home:true})
-    //     }
-    // }
+    const activeMenu = () => {
+        if(path === "/" || path === "/home-02" || path === "/home-03" ){
+            setmenu({home:true})
+        }else if(path === "/about" || path === "/team"){
+            setmenu({pages:true})
+        }else if(path === "/service-01" || path === "/service-02" || path === "qa-testing" || path === "/it-management" || path === "cyber-security" || path === "/it-consultant" || path === "/infrastructure-plan"){
+            setmenu({services:true})
+        }else if(path === "/projects" || path === "/project-details"){
+            setmenu({project:true})
+        }else if(path === "/blog" || path === "/blog-details"){
+            setmenu({blog:true})
+        }else if(path === "/contact"){
+            setmenu({contact:true})
+        }else{
+            setmenu({home:true})
+        }
+    }
 
     useEffect(() => {
         window.addEventListener("scroll", isSticky);
@@ -36,13 +36,13 @@ const Navbar = () => {
         };
     }, []);
 
-    // useEffect(()=>{
-    //     window.scroll(0, 0)
-    //     new WOW.WOW({
-    //       live: false
-    //     }).init();
-    //     activeMenu()
-    // }, [path])
+    useEffect(()=>{
+        window.scroll(0, 0)
+        new WOW.WOW({
+          live: false
+        }).init();
+        activeMenu()
+    }, [path])
     
     const isSticky = () => {
         const scrollTop = window.scrollY;
@@ -56,7 +56,7 @@ const Navbar = () => {
       <>
         <div className="topbar">
           <div className="container-fluid">
-            <p className="topbar__text">Welcome to CreTech</p>
+            <p className="topbar__text">Welcome to SREESON</p>
             <ul className="topbar__info">
               <li>
                 <i className="fa fa-envelope"></i>
@@ -125,7 +125,7 @@ const Navbar = () => {
           <div className="container-fluid">
             <div className="main-menu__logo">
               <Link to="/">
-                <img src={Logo} width="98" height="33" alt="Cretech" />
+                <img src={Logo} width="100" height="43" alt="Sreeson" />
               </Link>
             </div>
 
@@ -228,7 +228,7 @@ const Navbar = () => {
             </ul>
 
             <div className="main-menu__right">
-              {/* <Link to="#" className="mobile-nav__toggler">
+              <Link to="#" className="mobile-nav__toggler">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -239,7 +239,7 @@ const Navbar = () => {
                 className="search-toggler"
               >
                 <i className="icon-magnifying-glass"></i>
-              </Link> */}
+              </Link>
               <Link to="#" className="main-menu__cta" onClick={navigate}>
                 <i className="fa fa-clock"></i>
                 <span className="main-menu__cta__text">Schedule a Meeting</span>
@@ -247,7 +247,7 @@ const Navbar = () => {
             </div>
           </div>
         </nav>
-        <div className={`search-popup ${search && "active"}`}>
+        {/* <div className={`search-popup ${search && "active"}`}>
           <div
             className="search-popup__overlay search-toggler"
             onClick={() => setSearch(false)}
@@ -269,7 +269,7 @@ const Navbar = () => {
               </button>
             </form>
           </div>
-        </div>
+        </div> */}
       </>
     );
 }

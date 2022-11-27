@@ -118,7 +118,7 @@ const Home2 = () => {
 						<div className="topbar-two__inner">
 							<div className="topbar-two__logo">
 								<Link to="/">
-									<img src="assets/images/logo-dark.png" width="98" height="33" alt="Cretech" />
+									<img src="assets/images/logo-dark.png" width="98" height="33" alt="Sreeson" />
 								</Link>
 							</div>
 							<ul className="topbar-two__list">
@@ -152,7 +152,7 @@ const Home2 = () => {
 						<div className="main-menu__inner">
 							<div className="main-menu__logo">
 								<Link to="/">
-									<img src="assets/images/logo-light.png" width="98" height="33" alt="Cretech" />
+									<img src="assets/images/logo-light.png" width="98" height="33" alt="Sreeson" />
 								</Link>
 							</div>
 

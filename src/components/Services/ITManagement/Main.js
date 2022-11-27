@@ -36,11 +36,11 @@ const ITManagement = () => {
                 <img src={it1} alt="" />
               </div>
               <h3 className="service-details__title">
-                CREATE HIGH-VELOCITY SERVICE IT MANAGEMENT WITH CRETECH
+                CREATE HIGH-VELOCITY SERVICE IT MANAGEMENT WITH SREESON
               </h3>
               <div className="service-details__content">
                 <p>
-                  CRETECH Service Management provides the tools you need to
+                  SREESON Service Management provides the tools you need to
                   manage your service organization and unlock high-velocity
                   teams. Improve customer satisfaction, increase efficiency, and
                   reduce costs.
@@ -49,9 +49,9 @@ const ITManagement = () => {
                   Empower Dev, IT Ops, and business teams to work together
                   quickly and effectively. Respond to changes rapidly to deliver
                   excellent customer and employee experiences. Headline:
-                  CRETECH: The Best Managed IT Services Providers Are you
+                  SREESON: The Best Managed IT Services Providers Are you
                   looking for a reliable and experienced managed IT services
-                  provider? Look no further than CRETECH. We offer comprehensive
+                  provider? Look no further than SREESON. We offer comprehensive
                   services that are designed to meet your unique needs.
                 </p>
                 <p>

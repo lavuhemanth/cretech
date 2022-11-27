@@ -47,7 +47,7 @@ const CyberSecurity = () => {
                 <h3 className="service-details__title">Cyber Security</h3>
                 <div className="service-details__content">
                   <p>
-                    CRETECH is a top cyber security company in Bangalore that
+                    SREESON is a top cyber security company in Bangalore that
                     gives IT security solutions to small businesses,
                     enterprises, and startups. We have years of experience in
                     this industry, and we have assisted plenty of customers in
@@ -61,7 +61,7 @@ const CyberSecurity = () => {
                     of every business to protect their data and keep it secure.
                     However, as cyber-attacks and data breaches become more
                     sophisticated, it can be tough to anticipate what dangers
-                    might surface in the future. CRETECH is here to help you. We
+                    might surface in the future. SREESON is here to help you. We
                     have been managing today's digital landscape for over a
                     decade and know how to maintain the confidentiality of your
                     data against the most up-to-date cyber-threats. We can help
@@ -83,7 +83,7 @@ const CyberSecurity = () => {
                   </p>
                   <h4>We're alwayshere for you, 24/7.</h4>
                   <p>
-                    At CRETECH, our team of IT professionals is available 24/7
+                    At SREESON, our team of IT professionals is available 24/7
                     to answer any questions or concerns you may have about your
                     IT systems. We understand that your business needs can
                     change at a moment's notice, and we are here to provide the

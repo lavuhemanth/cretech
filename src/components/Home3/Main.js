@@ -158,7 +158,7 @@ const Home3 = () => {
           <div className="container-fluid">
             <div className="main-menu__logo">
               <Link to="/">
-                <img src="assets/images/logo-light.png" width="98" height="33" alt="Cretech" />
+                <img src="assets/images/logo-light.png" width="98" height="33" alt="Sreeson" />
               </Link>
             </div>
 

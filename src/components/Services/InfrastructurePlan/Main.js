@@ -40,7 +40,7 @@ const InfrastructurePlan = () => {
               </h3>
               <div className="service-details__content">
                 <p>
-                  Cretech is changing the way we build and maintain our world.
+                  Sreeson is changing the way we build and maintain our world.
                   We're building a smarter, more sustainable future.
                 </p>
                 <p>
@@ -62,10 +62,10 @@ const InfrastructurePlan = () => {
                   modernized.
                 </p>
                 <p>
-                  CRETECH can assist you in migrating from a hardware-dependent
+                  SREESON can assist you in migrating from a hardware-dependent
                   infrastructure to a more software-defined and intelligent
                   one—one that can take advantage of any opportunity. By working
-                  with CRETECH, you can create a more agile, scalable, and
+                  with SREESON, you can create a more agile, scalable, and
                   cost-effective infrastructure that will support your business
                   now and into the future.
                 </p>
