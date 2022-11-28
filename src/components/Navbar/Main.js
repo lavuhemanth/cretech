@@ -8,7 +8,6 @@ const Navbar = () => {
     const path = location.pathname
     const [sticky, setSticky] = useState(false)
     const [search, setSearch] = useState(false)
-
     const [menu, setmenu] = useState({})
 
     const activeMenu = () => {
@@ -187,6 +186,18 @@ const Navbar = () => {
                   </li>
                   <li>
                     <Link to="/it-consultant">IT Consultant</Link>
+                  </li>
+                  <li>
+                    <Link to="/Webapp">Web Application</Link>
+                  </li>
+                  <li>
+                    <Link to="/mobileapp">Mobile App</Link>
+                  </li>
+                  <li>
+                    <Link to="/hireing">Hire Development</Link>
+                  </li>
+                  <li>
+                    <Link to="/microsoftenterprise">Microsoft </Link>
                   </li>
                 </ul>
               </li>

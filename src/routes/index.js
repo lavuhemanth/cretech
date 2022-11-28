@@ -11,6 +11,10 @@ import ITConsultant from '../components/Services/ITConsultant/Main'
 import ITManagement from '../components/Services/ITManagement/Main'
 import QATesting from '../components/Services/QATesting/Main'
 import Service2 from '../components/Services/Services2/Main'
+import Webapp from '../components/Services/Webapp/Main'
+import Mobileapp from '../components/Services/Mobileapp/Main'
+import Microsoft from '../components/Services/Microsoft/Main'
+import HireingDev from '../components/Services/HireingDev/Main'
 // import ProjectDetails from '../components/Project/ProjectDetails/Main'
 // import Projects from '../components/Project/Projects/Main'
 // import Home2 from '../components/Home2/Main'
@@ -47,6 +51,10 @@ const Routing = () => {
           <Route path="/qa-testing" element={<QATesting />} />
           <Route path="/infrastructure-plan" element={<InfrastructurePlan />} />
           <Route path="/it-consultant" element={<ITConsultant />} />
+          <Route path="/Webapp" element={<Webapp />} />
+          <Route path="/mobileapp" element={<Mobileapp />} />
+          <Route path="/hireing" element={<HireingDev />} />
+          <Route path="/microsoftenterprise" element={<Microsoft />} />
           {/* <Route path="/projects" element={<Projects />} />
                 <Route path="/project-details" element={<ProjectDetails />} />
                 <Route path="/blog" element={<Blogs />} />

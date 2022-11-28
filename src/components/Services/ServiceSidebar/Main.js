@@ -13,6 +13,10 @@ const ServiceSidebar = () => {
           <li><Link to="/qa-testing">QA & Testing</Link></li>
           <li><Link to="/infrastructure-plan">Infrastructure Plan</Link></li>
           <li><Link to="/it-consultant">IT Consultant</Link></li>
+          <li><Link to="/Webapp">Web Application</Link></li>
+          <li><Link to="/mobileapp">Mobile App</Link></li>
+          <li><Link to="/hireing">Hire Development</Link></li>
+          <li><Link to="/microsoftenterprise">Microsoft</Link></li>
         </ul>
       </div>
       <div className="sidebar__item sidebar__item--cta">
