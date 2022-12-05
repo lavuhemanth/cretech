@@ -434,6 +434,120 @@ const Home = () => {
           </div>
         </section>
 
+        <section
+          className=" section-padding--top service-four gray-bg section-padding-xl--bottom section-has-bottom-margin background-repeat-no background-position-top-right"
+          style={{ backgroundImage: `url(${BGImg3})` }}
+        >
+          <div className="container">
+            <div className="section-title text-center">
+              <p className="section-title__text">Popular Services</p>
+              <h2 className="section-title__title">
+                We Provide Our Client Best <br />
+                IT Solution Services
+              </h2>
+            </div>
+            <OwlCarousel
+              className="thm-owl__carousel thm-owl__carousel--with-shadow service-four__carousel"
+              {...options}
+            >
+              <div className="item">
+                <div className="service-card-three">
+                  <div className="service-card-three__icon">
+                    <i className="icon-new-product"></i>
+                  </div>
+                  <div className="service-card-three__content">
+                    <h3 className="service-card-three__title">
+                      <Link to="/infrastructure-plan">
+                        Product
+                        <br />
+                        Development
+                      </Link>
+                    </h3>
+                    <div className="service-card-three__text">
+                      Providing the solutions for non-IT businesses.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="item">
+                <div className="service-card-three">
+                  <div className="service-card-three__icon">
+                    <i className="icon-new-product"></i>
+                  </div>
+                  <div className="service-card-three__content">
+                    <h3 className="service-card-three__title">
+                      <Link to="/infrastructure-plan">
+                        Digital
+                        <br />
+                        Marketing
+                      </Link>
+                    </h3>
+                    <div className="service-card-three__text">
+                      Providing the solutions for non-IT businesses.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="item">
+                <div className="service-card-three">
+                  <div className="service-card-three__icon">
+                    <i className="icon-protection"></i>
+                  </div>
+                  <div className="service-card-three__content">
+                    <h3 className="service-card-three__title">
+                      <Link to="/infrastructure-plan">
+                        Security <br />
+                        System
+                      </Link>
+                    </h3>
+                    <div className="service-card-three__text">
+                      Providing the solutions for non-IT businesses.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="item">
+                <div className="service-card-three">
+                  <div className="service-card-three__icon">
+                    <i className="icon-web-development"></i>
+                  </div>
+                  <div className="service-card-three__content">
+                    <h3 className="service-card-three__title">
+                      <Link to="/infrastructure-plan">
+                        UI/UX
+                        <br />
+                        Designing
+                      </Link>
+                    </h3>
+                    <div className="service-card-three__text">
+                      Providing the solutions for non-IT businesses.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="item">
+                <div className="service-card-three">
+                  <div className="service-card-three__icon">
+                    <i className="icon-analysis"></i>
+                  </div>
+                  <div className="service-card-three__content">
+                    <h3 className="service-card-three__title">
+                      <Link to="/infrastructure-plan">
+                        Data
+                        <br />
+                        Analysis
+                      </Link>
+                    </h3>
+                    <div className="service-card-three__text">
+                      Providing the solutions for non-IT businesses.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </OwlCarousel>
+          </div>
+        </section>
+
         <section className="funfact-one">
           <div className="container">
             <div

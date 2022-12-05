@@ -91,27 +91,46 @@ const Footer = () => {
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-sm-12">
-                <div className="footer-widget footer-widget--newsletter">
-                  <h3 className="footer-widget__title">Subscribe</h3>
-                  <p className="footer-widget__text">
-                    Sign up to receive the latest articles
-                  </p>
-
-                  <form
-                    action="#"
-                    className="footer-widget__newsletter mc-form"
-                    data-url="ADD_YOUR_MAILCHIMP_FORM_URL_HERE"
-                  >
-                    <input
-                      type="email"
-                      name="EMAIL"
-                      placeholder="Enter Your Email"
-                    />
-                    <button className="thm-btn footer-widget__newsletter__btn">
-                      <span>Register</span>
-                    </button>
-                  </form>
-                  <div className="mc-form__response"></div>
+              <div className="footer-widget footer-widget--links">
+                  <h3 className="footer-widget__title">Industries</h3>
+                  <ul className="footer-widget__links">
+                  <li>
+                  <Link to="/Healthcare">Healthcare</Link>
+                </li>
+                <li>
+                  <Link to="/Education">Education /eLearning</Link>
+                </li>
+                <li>
+                  <Link to="/Social">Social Network</Link>
+                </li>
+                <li>
+                  <Link to="/Retail">Retail</Link>
+                </li>
+                <li>
+                  <Link to="/Manufactur">Manufactring</Link>
+                </li>
+                <li>
+                  <Link to="/Ecommerce">eCommerce</Link>
+                </li>
+                <li>
+                  <Link to="/Energy">Energy</Link>
+                </li>
+                <li>
+                  <Link to="/Travel">Travel & Hospitality</Link>
+                </li>
+                <li>
+                  <Link to="/RealEstate">Real Estate </Link>
+                </li>
+                <li>
+                  <Link to="/Media">Media & Entertainment</Link>
+                </li>
+                <li>
+                  <Link to="/Logistics">Logistics & Distribution</Link>
+                </li>
+                <li>
+                  <Link to="/Construction">Construction</Link>
+                </li>
+                  </ul>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-sm-12">
@@ -135,6 +154,28 @@ const Footer = () => {
                       Canada
                     </li>
                   </ul>
+                  <div className="footer-widget footer-widget--newsletter">
+                  <h3 className="footer-widget__title">Subscribe</h3>
+                  <p className="footer-widget__text">
+                    Sign up to receive the latest articles
+                  </p>
+
+                  <form
+                    action="#"
+                    className="footer-widget__newsletter mc-form"
+                    data-url="ADD_YOUR_MAILCHIMP_FORM_URL_HERE"
+                  >
+                    <input
+                      type="email"
+                      name="EMAIL"
+                      placeholder="Enter Your Email"
+                    />
+                    <button className="thm-btn footer-widget__newsletter__btn">
+                      <span>Register</span>
+                    </button>
+                  </form>
+                  <div className="mc-form__response"></div>
+                </div>
                 </div>
               </div>
             </div>

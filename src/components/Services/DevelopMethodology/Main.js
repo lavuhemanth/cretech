@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Breadcumb from '../../Breadcumb/Main'
-import itc from "../../../assets/images/services/hireing.png";
-import ServiceSidebar2 from '../ServiceSidebar2/Main'
+import itc from "../../../assets/images/services/development methods.png";
+import ServiceSidebar3 from '../ServiceSidebar3/Main';
 
 
-const HireingDev = () => {
+const DevelopMethodology = () => {
 	// const [clicked, setClicked] = useState(0);
 	// const faqs = [
 	// 	{
@@ -27,7 +27,7 @@ const HireingDev = () => {
 	// ]
 	return (
     <>
-      <Breadcumb Title="Hire Develpoment" Breadcumb="SERVICES" />
+      <Breadcumb Title="Development Methodology" Breadcumb="SERVICES" />
       <section className="section-padding--bottom section-padding--top service-details--page">
         <div className="container">
           <div className="row ">
@@ -35,78 +35,59 @@ const HireingDev = () => {
               <div className="service-details__image">
                 <img src={itc} alt="" />
               </div>
-              <h3 className="service-details__title">Hire Develpoment</h3>
+              <h3 className="service-details__title">Development Methodology</h3>
               <div className="service-details__content">
-                <p>
-                The importance of delivery excellence cannot be overstated. In today's competitive business environment, companies must be able to rely on their teams to deliver high-quality products and services on time and on budget. That's why hiring a dedicated development team can be a great way to ensure delivery excellence.
-                </p>
-                <p>
-                A dedicated development team will work closely with your company to understand your specific needs and requirements. They will then put together a plan to deliver the best possible results. By working with a dedicated team, you can be sure that your company's delivery goals will be met.
-                </p>
-                <p>
-                Dedicated development teams are an excellent option to..
-                </p>
-                <p>
-                Obtain the necessary technical knowledge for your project.
-                </p>
-                <p>
-                Increase the talent of the internal staff.
-                </p>
-                <p>
-                team up on a new project or update an already one.
-                </p>
-                <p>
-                Get services that are adaptable at a fair price.
-                </p>
-                <p>
-                gain complete managerial authority over devs.
-                </p>
-
-                <h4>
-                 What are the various models for dedicated teams?
-                </h4>
-                <p>
-                  <b>1.a fully committed team.</b>
-                </p>
-                <p>
-                Utilize the skills of our team to provide end-to-end assistance for testing, product development, and managed IT service tasks. We take a targeted approach and give you the freedom to rearrange the team in accordance with the demands of your project. We use a team size-based monthly payment system that also includes fixed service costs.
-                </p>
-                <p>
-                  <b>2. on-call devoted crew</b>
-                </p>
-                <p>
-                Meet your ongoing and intermittent need for knowledgeable specialists to work together on projects. In order to attain the appropriate team competence to execute your duties, we will build on the experience of your core team. For lengthy projects with shifting requirements, the approach is perfect. Regarding the budget, actual expenses may differ from projections, and monthly payments are made pro rata.
-                </p>
-                <p>
-                  <b>3. devoted maintenance crew</b>
-                </p>
-                <p>
-                To keep up with your product or service's changing efficiency requirements, get help for ongoing maintenance. Teams in charge of maintenance make ensuring that products are delivered with the ability to provide results and are continually enhanced to suit shifting user expectations. Businesses choosing a maintenance team will pay a monthly fee based on the scope of the project and the number of team members.
-                </p>
-                <h4>
-                Where do we work from?
-                </h4>
-                <p>
-                With complete control over your project and operations, Sreeson's Dedicated Development Teams will provide extended team support for your projects on-site, off-site, and offshore in accordance with your unique business needs. Over the course of the engagement, we will also guarantee open communication and close cooperation.
-                </p>
-                <p>
-                  <b>1. On-site, committed team</b>
-                </p>
-                <p>
-                From the beginning, you or the internal project manager will be the direct reporting party for our on-site dedicated support teams, who will operate out of your location and on infrastructure you supply. You'll receive the assistance you require right at your location, maintaining total control over communications, operations, and security.
-                </p>
-                <p>
-                  <b>2. an off-site, committed team</b>
-                </p>
-                <p>
-                Our specialised off-site support staff will operate out of our offices in Kansas and New Jersey and travel to your location as needed. You will have full control over your project because we will give you the infrastructure you need to support communication, project management, and information security.
-                </p>
-                <p>
-                  <b>3. devoted offshore team</b>
-                </p>
-                <p>
-                No matter where you are located, our specialised offshore staff will assist your project from our offshore sites. Your suggestions for a pleasant and safe procedure will guide the selection of the infrastructure needed to enable communication, project management, and information security.
-                </p>
+              <p>
+                <b>Our development methodologies provide smooth development and we provide framework that help to structure, plan and control the process of developing an information system. We are crafted to achieve the business goals and deadlines.</b>
+               </p>
+               <h4>
+               Standardizing The Method Of Developing a Software, System or Application
+               </h4>
+               <p>
+               It is very important to choose the development methodologies that work best for the project. Our team uses various methodology technologies to minimize the risks while adding new functionalities. We provide project management processes and business approach that is based on customer need and response. We use hybrid methods that provide flexibility in software development.
+               </p>
+               <p>
+               Our methodology ensures that your changes get incorporated with lowest minimal costs. We use those software development methodologies that provide clear guidelines, predefined roles and best practices to be followed. We provide and guide you that software that is best for our customer. We have refined our business process by blending leading industry practices spanning from more agile methodologies, we ensure that we neither overlaps nor conflict at delivering terms.
+               </p>
+               <p>
+               Successful distributed development help leads to improve business agility and provide greater capacity to handle the pressure of competitions.
+               </p>
+               <h4>
+               Methodlogies
+               </h4>
+               <p>
+                <b>Choose the best methodologies best suited for you projects that match your expectations.</b>
+               </p>
+               <p>
+                <b>Agile</b>
+               </p>
+               <p>
+               Agile is the ability to create and respond to changes. It helps in collaboration between self organizing and principles that help in figure out right solutions.Agile software development, focus on the practices that help the organization to solve unresolved issues.
+               </p>
+               <p>
+                <b>Waterfall</b>
+               </p>
+               <p>
+               Waterfall model provide sequential, linear approach to software development methodologies. Waterfall model emphasize the logical progression of steps be taken through software development.
+               </p>
+               <p>
+                <b>Spiral</b>
+               </p>
+               <p>
+               Software development model to handle risk factors and dynamically determine the number of phases involved in project. Spiral model is highly advanced model that has four quadrants gather the customer information analyze every field.
+               </p>
+               <p>
+                <b>Scrum</b>
+               </p>
+               <p>
+               Scrum methodologies is technology for managing software delivery that provide lightweight processes and a series of sprint that potentially deliverable.
+               </p>
+               <p>
+                <b>Iterative</b>
+               </p>
+               <p>
+               It is breaking down the large technologies into chunk of technologies and each code executes iteratively at each steps. At the end of each iterative cycle the final code is revised by the customers.
+               </p>
               </div>
               <div className="row gutter-y-30 service-details__box-wrapper">
                 <div className="col-md-6 col-sm-12">
@@ -208,7 +189,7 @@ const HireingDev = () => {
               </div> */}
             </div>
             <div className="col-lg-4 sidebar-column">
-              <ServiceSidebar2/>
+              <ServiceSidebar3/>
             </div>
           </div>
         </div>
@@ -217,4 +198,4 @@ const HireingDev = () => {
   );
 }
 
-export default HireingDev
+export default DevelopMethodology

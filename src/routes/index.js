@@ -15,6 +15,33 @@ import Webapp from '../components/Services/Webapp/Main'
 import Mobileapp from '../components/Services/Mobileapp/Main'
 import Microsoft from '../components/Services/Microsoft/Main'
 import HireingDev from '../components/Services/HireingDev/Main'
+import Frontend from '../components/Services/Frontend/Main'
+import ITmerit from "../components/Services/ITmerit/Main"
+import Cloudintegration from '../components/Services/Cloudintegration/Main'
+import Clouddev from '../components/Services/Clouddev/Main'
+import Chatbot from '../components/Services/Chatbot/Main'
+import Bigdata from '../components/Services/Bigdata/Main'
+import Iot from '../components/Services/Iot/Main'
+import Ar from '../components/Services/Ar/Main'
+import Business from '../components/Services/Business/Main'
+import ProductPrototype from '../components/Services/ProductPrototype/Main'
+import ManagedServices from '../components/Services/ManagedServices/Main'
+import Enterprice from '../components/Services/Enterprice/Main'
+import Delivery from '../components/Services/Delivery/Main'
+import Pricing from '../components/Services/Pricing/Main'
+import DevelopMethodology from'../components/Services/DevelopMethodology/Main'
+import Construction from '../components/Industries/Construction/Main'
+import Ecommerce from '../components/Industries/Ecommerce/Main'
+import Education from '../components/Industries/Education/Main'
+import Energy from '../components/Industries/Energy/Main'
+import Healthcare from '../components/Industries/Healthcare/Main'
+import Logistics from '../components/Industries/Logistics/Main'
+import Manufactur from '../components/Industries/Manufactur/Main'
+import Media from '../components/Industries/Media/Main'
+import RealEstate from '../components/Industries/RealEState/Main'
+import Retail from '../components/Industries/Retail/Main'
+import Social from '../components/Industries/Social/Main'
+import Travel from '../components/Industries/Travel/Main'
 // import ProjectDetails from '../components/Project/ProjectDetails/Main'
 // import Projects from '../components/Project/Projects/Main'
 // import Home2 from '../components/Home2/Main'
@@ -55,6 +82,33 @@ const Routing = () => {
           <Route path="/mobileapp" element={<Mobileapp />} />
           <Route path="/hireing" element={<HireingDev />} />
           <Route path="/microsoftenterprise" element={<Microsoft />} />
+          <Route path="/frontend" element={<Frontend />} />
+          <Route path="/ITmerit" element={<ITmerit />} />
+          <Route path="/Cloudintegration" element={<Cloudintegration />}/>
+          <Route path="/Clouddev" element={<Clouddev />}/>
+          <Route path="/Chatbot" element={<Chatbot />}/>
+          <Route path="/Bigdata" element={<Bigdata />}/>
+          <Route path="/Iot" element={<Iot />}/>
+          <Route path="/Ar" element={<Ar />}/>
+          <Route path="/Business" element={<Business />}/>
+          <Route path="/ProductPrototype" element={<ProductPrototype />}/>
+          <Route path="/ManagedServices" element={<ManagedServices />}/>
+          <Route path="/Enterprice" element={<Enterprice />}/>
+          <Route path="/DevelopMethodology" element={<DevelopMethodology />}/>
+          <Route path="/Delivery" element={<Delivery />}/>
+          <Route path="/Pricing" element={<Pricing />}/>
+          <Route path="/Construction" element={<Construction />}/>
+          <Route path="/Ecommerce" element={<Ecommerce />}/>
+          <Route path="/Education" element={<Education />}/>
+          <Route path="/Energy" element={<Energy />}/>
+          <Route path="/Healthcare" element={<Healthcare />}/>
+          <Route path="/Logistics" element={<Logistics />}/>
+          <Route path="/Manufactur" element={<Manufactur />}/>
+          <Route path="/Media" element={<Media />}/>
+          <Route path="/RealEstate" element={<RealEstate />}/>
+          <Route path="/Retail" element={<Retail />}/>
+          <Route path="/Social" element={<Social />}/>
+          <Route path="/Travel" element={<Travel />}/>
           {/* <Route path="/projects" element={<Projects />} />
                 <Route path="/project-details" element={<ProjectDetails />} />
                 <Route path="/blog" element={<Blogs />} />

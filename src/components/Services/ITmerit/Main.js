@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Breadcumb from '../../Breadcumb/Main'
-import itc from "../../../assets/images/services/hireing.png";
-import ServiceSidebar2 from '../ServiceSidebar2/Main'
+import ServiceSidebar from '../ServiceSidebar/Main'
+import itc from "../../../assets/images/services/IT merits.png";
 
 
-const HireingDev = () => {
+const ITmerit = () => {
 	// const [clicked, setClicked] = useState(0);
 	// const faqs = [
 	// 	{
@@ -27,7 +27,7 @@ const HireingDev = () => {
 	// ]
 	return (
     <>
-      <Breadcumb Title="Hire Develpoment" Breadcumb="SERVICES" />
+      <Breadcumb Title="IT Metrics And Dashboard Services" Breadcumb="SERVICES" />
       <section className="section-padding--bottom section-padding--top service-details--page">
         <div className="container">
           <div className="row ">
@@ -35,78 +35,59 @@ const HireingDev = () => {
               <div className="service-details__image">
                 <img src={itc} alt="" />
               </div>
-              <h3 className="service-details__title">Hire Develpoment</h3>
+              <h3 className="service-details__title">IT Metrics And Dashboard Services</h3>
               <div className="service-details__content">
-                <p>
-                The importance of delivery excellence cannot be overstated. In today's competitive business environment, companies must be able to rely on their teams to deliver high-quality products and services on time and on budget. That's why hiring a dedicated development team can be a great way to ensure delivery excellence.
-                </p>
-                <p>
-                A dedicated development team will work closely with your company to understand your specific needs and requirements. They will then put together a plan to deliver the best possible results. By working with a dedicated team, you can be sure that your company's delivery goals will be met.
-                </p>
-                <p>
-                Dedicated development teams are an excellent option to..
-                </p>
-                <p>
-                Obtain the necessary technical knowledge for your project.
-                </p>
-                <p>
-                Increase the talent of the internal staff.
-                </p>
-                <p>
-                team up on a new project or update an already one.
-                </p>
-                <p>
-                Get services that are adaptable at a fair price.
-                </p>
-                <p>
-                gain complete managerial authority over devs.
-                </p>
+              <p>
+                <b>Run your business with our IT metrics services achieve and understand your data. Monitor the most important success metrics that best suited for the business.</b>
+              </p>
+              <h3>Dashboard</h3>
+              <p>
+              We provide highly specialized services that are designed to visualize and analyze the data with dashboards. We create a insight business analytics that have key performance indicators that help to find the faults and key error in business. We use variety of charts, widgets and tabular components that convert complex analysis into simple analysis that is easy to understand. They are built to perform complex mathematical calculation with no error. You can access these dashboards on PC, laptop, tablets and mobile phones. We provide single tool that help in data visualization, data accuracy, remove data reluctance and the data visualization. We offer the dashboards that are scalable and useful and it offer incredible values. Our dashboards helping empowering your decision and leverage your business to next level.
+              </p>
+              <h4>
+              Our Proposition
+              </h4>
+              <p>
+                -Share and Export
+              </p>
+              <p>
+                -Deeper analytics
+              </p>
+              <p>
+                -Accessible across all devices
+              </p>
+              <p>
+                -Key performance Indicators
+              </p>
+              <p>
+                -Easily perform calculation of complex metrics
+              </p>
+              <p>
+                -Help in finding best business strategies
+              </p>
+              <h4>
+              Our Capabilites
+              </h4>
+              <p>
+                <b>ADVANCED VISUALIZATION DASHBOARDS</b>
+              </p>
+              <p>
+              We provides the dashboards that are designed to simplify the complex data analytics and help in monitoring your business performance. We use BI and business analytics approach that is having performance key that maps the faults and key error in business. It works in statically way that will lead to more productivity and profitability. We create intuitive visualizations and reports that you need to run your business in holistic manner.
+              </p>
+              <p>
+                <b>REPORT AND DASHBOARDS</b>
+              </p>
+              <p>
+              We provides the dashboard reports that enable in actionable insights while saving cost and time. The big advantage is that we provide access and put data so that every department take the accountability of the data and extract actionable insights from the data. We help an organization to strengthen the decision making and push business a step forward.
+              </p>
+              <p>
+                <b>BI DASHBOARDS</b>
+              </p>
+              <p>
+              Our BI dashboards uses simple clickable drag and drop user interface and take care of security of data. They are built on security protocols that help in managing groups to keep the content secured with multi tenancy options and controls. We provide simple solutions that allow scalability for your growing business.
+              </p>
+              
 
-                <h4>
-                 What are the various models for dedicated teams?
-                </h4>
-                <p>
-                  <b>1.a fully committed team.</b>
-                </p>
-                <p>
-                Utilize the skills of our team to provide end-to-end assistance for testing, product development, and managed IT service tasks. We take a targeted approach and give you the freedom to rearrange the team in accordance with the demands of your project. We use a team size-based monthly payment system that also includes fixed service costs.
-                </p>
-                <p>
-                  <b>2. on-call devoted crew</b>
-                </p>
-                <p>
-                Meet your ongoing and intermittent need for knowledgeable specialists to work together on projects. In order to attain the appropriate team competence to execute your duties, we will build on the experience of your core team. For lengthy projects with shifting requirements, the approach is perfect. Regarding the budget, actual expenses may differ from projections, and monthly payments are made pro rata.
-                </p>
-                <p>
-                  <b>3. devoted maintenance crew</b>
-                </p>
-                <p>
-                To keep up with your product or service's changing efficiency requirements, get help for ongoing maintenance. Teams in charge of maintenance make ensuring that products are delivered with the ability to provide results and are continually enhanced to suit shifting user expectations. Businesses choosing a maintenance team will pay a monthly fee based on the scope of the project and the number of team members.
-                </p>
-                <h4>
-                Where do we work from?
-                </h4>
-                <p>
-                With complete control over your project and operations, Sreeson's Dedicated Development Teams will provide extended team support for your projects on-site, off-site, and offshore in accordance with your unique business needs. Over the course of the engagement, we will also guarantee open communication and close cooperation.
-                </p>
-                <p>
-                  <b>1. On-site, committed team</b>
-                </p>
-                <p>
-                From the beginning, you or the internal project manager will be the direct reporting party for our on-site dedicated support teams, who will operate out of your location and on infrastructure you supply. You'll receive the assistance you require right at your location, maintaining total control over communications, operations, and security.
-                </p>
-                <p>
-                  <b>2. an off-site, committed team</b>
-                </p>
-                <p>
-                Our specialised off-site support staff will operate out of our offices in Kansas and New Jersey and travel to your location as needed. You will have full control over your project because we will give you the infrastructure you need to support communication, project management, and information security.
-                </p>
-                <p>
-                  <b>3. devoted offshore team</b>
-                </p>
-                <p>
-                No matter where you are located, our specialised offshore staff will assist your project from our offshore sites. Your suggestions for a pleasant and safe procedure will guide the selection of the infrastructure needed to enable communication, project management, and information security.
-                </p>
               </div>
               <div className="row gutter-y-30 service-details__box-wrapper">
                 <div className="col-md-6 col-sm-12">
@@ -208,7 +189,7 @@ const HireingDev = () => {
               </div> */}
             </div>
             <div className="col-lg-4 sidebar-column">
-              <ServiceSidebar2/>
+              <ServiceSidebar />
             </div>
           </div>
         </div>
@@ -217,4 +198,4 @@ const HireingDev = () => {
   );
 }
 
-export default HireingDev
+export default ITmerit

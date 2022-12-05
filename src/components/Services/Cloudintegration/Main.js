@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Breadcumb from '../../Breadcumb/Main'
-import itc from "../../../assets/images/services/hireing.png";
-import ServiceSidebar2 from '../ServiceSidebar2/Main'
+import ServiceSidebar from '../ServiceSidebar/Main'
+import itc from "../../../assets/images/services/cloud integration.png";
 
 
-const HireingDev = () => {
+const Cloudintegration = () => {
 	// const [clicked, setClicked] = useState(0);
 	// const faqs = [
 	// 	{
@@ -27,7 +27,7 @@ const HireingDev = () => {
 	// ]
 	return (
     <>
-      <Breadcumb Title="Hire Develpoment" Breadcumb="SERVICES" />
+      <Breadcumb Title="Cloud Integration Services" Breadcumb="SERVICES" />
       <section className="section-padding--bottom section-padding--top service-details--page">
         <div className="container">
           <div className="row ">
@@ -35,79 +35,84 @@ const HireingDev = () => {
               <div className="service-details__image">
                 <img src={itc} alt="" />
               </div>
-              <h3 className="service-details__title">Hire Develpoment</h3>
+              <h3 className="service-details__title">Cloud Integration </h3>
               <div className="service-details__content">
-                <p>
-                The importance of delivery excellence cannot be overstated. In today's competitive business environment, companies must be able to rely on their teams to deliver high-quality products and services on time and on budget. That's why hiring a dedicated development team can be a great way to ensure delivery excellence.
-                </p>
-                <p>
-                A dedicated development team will work closely with your company to understand your specific needs and requirements. They will then put together a plan to deliver the best possible results. By working with a dedicated team, you can be sure that your company's delivery goals will be met.
-                </p>
-                <p>
-                Dedicated development teams are an excellent option to..
-                </p>
-                <p>
-                Obtain the necessary technical knowledge for your project.
-                </p>
-                <p>
-                Increase the talent of the internal staff.
-                </p>
-                <p>
-                team up on a new project or update an already one.
-                </p>
-                <p>
-                Get services that are adaptable at a fair price.
-                </p>
-                <p>
-                gain complete managerial authority over devs.
-                </p>
-
-                <h4>
-                 What are the various models for dedicated teams?
-                </h4>
-                <p>
-                  <b>1.a fully committed team.</b>
-                </p>
-                <p>
-                Utilize the skills of our team to provide end-to-end assistance for testing, product development, and managed IT service tasks. We take a targeted approach and give you the freedom to rearrange the team in accordance with the demands of your project. We use a team size-based monthly payment system that also includes fixed service costs.
-                </p>
-                <p>
-                  <b>2. on-call devoted crew</b>
-                </p>
-                <p>
-                Meet your ongoing and intermittent need for knowledgeable specialists to work together on projects. In order to attain the appropriate team competence to execute your duties, we will build on the experience of your core team. For lengthy projects with shifting requirements, the approach is perfect. Regarding the budget, actual expenses may differ from projections, and monthly payments are made pro rata.
-                </p>
-                <p>
-                  <b>3. devoted maintenance crew</b>
-                </p>
-                <p>
-                To keep up with your product or service's changing efficiency requirements, get help for ongoing maintenance. Teams in charge of maintenance make ensuring that products are delivered with the ability to provide results and are continually enhanced to suit shifting user expectations. Businesses choosing a maintenance team will pay a monthly fee based on the scope of the project and the number of team members.
-                </p>
-                <h4>
-                Where do we work from?
-                </h4>
-                <p>
-                With complete control over your project and operations, Sreeson's Dedicated Development Teams will provide extended team support for your projects on-site, off-site, and offshore in accordance with your unique business needs. Over the course of the engagement, we will also guarantee open communication and close cooperation.
-                </p>
-                <p>
-                  <b>1. On-site, committed team</b>
-                </p>
-                <p>
-                From the beginning, you or the internal project manager will be the direct reporting party for our on-site dedicated support teams, who will operate out of your location and on infrastructure you supply. You'll receive the assistance you require right at your location, maintaining total control over communications, operations, and security.
-                </p>
-                <p>
-                  <b>2. an off-site, committed team</b>
-                </p>
-                <p>
-                Our specialised off-site support staff will operate out of our offices in Kansas and New Jersey and travel to your location as needed. You will have full control over your project because we will give you the infrastructure you need to support communication, project management, and information security.
-                </p>
-                <p>
-                  <b>3. devoted offshore team</b>
-                </p>
-                <p>
-                No matter where you are located, our specialised offshore staff will assist your project from our offshore sites. Your suggestions for a pleasant and safe procedure will guide the selection of the infrastructure needed to enable communication, project management, and information security.
-                </p>
+              <p>
+                <b>We work in the background to orchestrate and execute business processes that connect enterprise and applications with cloud based infrastructure and software. Multiple applications and share data on cloud.</b>
+              </p>
+              <h4>Cloud Integration Services</h4>
+              <p>
+              We provide seamless flow of data and transactions with the help of cloud services we enhance the cloud services by building business hybrid layers for the business. We help you analyze and identify key areas where your business can realize efficiencies by integrating applications and data across different cloud in-house servers. Our Cloud integrated services were able to focus more on delivering the services rather than being mingled up in tasks such as procurement, maintenance, capacity planning. Our dashboard provides the end to end business and standardized services assurance by IT deployments. We provide large scale deployment services that help provide more scalablity, agility and data storage that reduce the cost. Removing the risk, cost and struggle of moving the database to the cloud eliminates the organization barrier.
+              </p>
+              <p>
+              Our result driven cloud application development help in shaping the workflow of any organization and help them in establishing the system for locating the data. With our cloud integration services companies are not required to invest on the expensive hardware can lend the ability to operate and process the information in an easy manner. We provide the best sophisticated cloud integration solutions that aids in delivering high end responsiveness to the multiple system that are interconnected and working simultaneously
+              </p>
+              <h4>
+              Our Proposition
+              </h4>
+              <p>
+              -Deliver the improvised mobility with cloud Integration.
+              </p>
+              <p>
+              -Safe environment with the help of cloud Integration
+              </p>
+              <p>
+              -Secure environment for cloud integration
+              </p>
+              <p>
+              -Become more agile and collaborate more effectively
+              </p>
+              <h4>
+              Our Capabilites
+              </h4>
+              <p>
+                <b>We experience in all latest technologies</b>
+              </p>
+              <p>
+                <b>SAAS</b>
+              </p>
+              <p>
+              For larger organization it is always difficult to buy license and upgrade it and use additional disk for that. SaaS is easy to implement, easy to update and debug, and less expensive.SaaS has numerous features including tracking leads, scheduling events, managing transactions, automating sign up, auditing and more. We configure and implement SaaS oriented application model based on the need whether it be internal applications and cloud applications. SaaS is an effective solution and easy to acquire.
+              </p>
+              <p>
+                <b>PAAS</b>
+              </p>
+              <p>
+              PaaS is a complete cloud development environment in which a user purchases the resource and pay over basis and access with secure internet. PaaS help in developing fully functional environment such as web apps, database and programming language. It provides an operating software developed on cloud services. We provide PaaS services that supplies environment for developing and testing applications.
+              </p>
+              <p>
+                <b>
+                IAAS
+                </b>
+              </p>
+              <p>
+              It provide computer infrastructure as an outsourced basis and provides hardware, spacedatabase, software’s or network components as services. We provide virtual machines as a cloud services and responsible for the maintaining of software’s. We are expertise in providing virtual resources over the internet that reduces the cost and complexity of enterprises. Our IaaS applications help in accessing ,monitoring and managing remote datacenters infrastructure.
+              </p>
               </div>
+              <div>
+              <h3 className="service-details__title">Cloud Integration </h3>
+              <div className="service-details__content">
+              <h4>
+                 Public Cloud
+              </h4>
+              <p>
+              Public cloud that help in the integrating infrastructure and offsite to the internet and computing that help in the visibility of the product between the shared organizations. It help in the providing control over the whole infrastructure.
+              </p>
+              <h4>
+                Private Cloud
+              </h4>
+              <p>
+              It help in the control over the particular organization map the scalability, flexibility and ensure their proper management . It help in the grater control over the data.
+              </p>
+              <h4>
+                Hybrid Cloud
+              </h4>
+              <p>
+              Hybrid Control includes the full time capacity , aggregation and the assimilation of the data to the public clouds . It permitted to increase the unexceptional boundaries.
+              </p>
+              </div>
+              </div>
+             
               <div className="row gutter-y-30 service-details__box-wrapper">
                 <div className="col-md-6 col-sm-12">
                   <div className="service-details__box">
@@ -208,7 +213,7 @@ const HireingDev = () => {
               </div> */}
             </div>
             <div className="col-lg-4 sidebar-column">
-              <ServiceSidebar2/>
+              <ServiceSidebar />
             </div>
           </div>
         </div>
@@ -217,4 +222,4 @@ const HireingDev = () => {
   );
 }
 
-export default HireingDev
+export default Cloudintegration

@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Breadcumb from '../../Breadcumb/Main'
-import itc from "../../../assets/images/services/hireing.png";
-import ServiceSidebar2 from '../ServiceSidebar2/Main'
+import itc from "../../../assets/images/services/delivery1.jpg";
+import ServiceSidebar3 from '../ServiceSidebar3/Main';
 
 
-const HireingDev = () => {
+const Delivery = () => {
 	// const [clicked, setClicked] = useState(0);
 	// const faqs = [
 	// 	{
@@ -27,7 +27,7 @@ const HireingDev = () => {
 	// ]
 	return (
     <>
-      <Breadcumb Title="Hire Develpoment" Breadcumb="SERVICES" />
+      <Breadcumb Title="Delivery Models" Breadcumb="SERVICES" />
       <section className="section-padding--bottom section-padding--top service-details--page">
         <div className="container">
           <div className="row ">
@@ -35,78 +35,53 @@ const HireingDev = () => {
               <div className="service-details__image">
                 <img src={itc} alt="" />
               </div>
-              <h3 className="service-details__title">Hire Develpoment</h3>
+              <h3 className="service-details__title">Delivery Models</h3>
               <div className="service-details__content">
-                <p>
-                The importance of delivery excellence cannot be overstated. In today's competitive business environment, companies must be able to rely on their teams to deliver high-quality products and services on time and on budget. That's why hiring a dedicated development team can be a great way to ensure delivery excellence.
-                </p>
-                <p>
-                A dedicated development team will work closely with your company to understand your specific needs and requirements. They will then put together a plan to deliver the best possible results. By working with a dedicated team, you can be sure that your company's delivery goals will be met.
-                </p>
-                <p>
-                Dedicated development teams are an excellent option to..
-                </p>
-                <p>
-                Obtain the necessary technical knowledge for your project.
-                </p>
-                <p>
-                Increase the talent of the internal staff.
-                </p>
-                <p>
-                team up on a new project or update an already one.
-                </p>
-                <p>
-                Get services that are adaptable at a fair price.
-                </p>
-                <p>
-                gain complete managerial authority over devs.
-                </p>
-
-                <h4>
-                 What are the various models for dedicated teams?
-                </h4>
-                <p>
-                  <b>1.a fully committed team.</b>
-                </p>
-                <p>
-                Utilize the skills of our team to provide end-to-end assistance for testing, product development, and managed IT service tasks. We take a targeted approach and give you the freedom to rearrange the team in accordance with the demands of your project. We use a team size-based monthly payment system that also includes fixed service costs.
-                </p>
-                <p>
-                  <b>2. on-call devoted crew</b>
-                </p>
-                <p>
-                Meet your ongoing and intermittent need for knowledgeable specialists to work together on projects. In order to attain the appropriate team competence to execute your duties, we will build on the experience of your core team. For lengthy projects with shifting requirements, the approach is perfect. Regarding the budget, actual expenses may differ from projections, and monthly payments are made pro rata.
-                </p>
-                <p>
-                  <b>3. devoted maintenance crew</b>
-                </p>
-                <p>
-                To keep up with your product or service's changing efficiency requirements, get help for ongoing maintenance. Teams in charge of maintenance make ensuring that products are delivered with the ability to provide results and are continually enhanced to suit shifting user expectations. Businesses choosing a maintenance team will pay a monthly fee based on the scope of the project and the number of team members.
-                </p>
-                <h4>
-                Where do we work from?
-                </h4>
-                <p>
-                With complete control over your project and operations, Sreeson's Dedicated Development Teams will provide extended team support for your projects on-site, off-site, and offshore in accordance with your unique business needs. Over the course of the engagement, we will also guarantee open communication and close cooperation.
-                </p>
-                <p>
-                  <b>1. On-site, committed team</b>
-                </p>
-                <p>
-                From the beginning, you or the internal project manager will be the direct reporting party for our on-site dedicated support teams, who will operate out of your location and on infrastructure you supply. You'll receive the assistance you require right at your location, maintaining total control over communications, operations, and security.
-                </p>
-                <p>
-                  <b>2. an off-site, committed team</b>
-                </p>
-                <p>
-                Our specialised off-site support staff will operate out of our offices in Kansas and New Jersey and travel to your location as needed. You will have full control over your project because we will give you the infrastructure you need to support communication, project management, and information security.
-                </p>
-                <p>
-                  <b>3. devoted offshore team</b>
-                </p>
-                <p>
-                No matter where you are located, our specialised offshore staff will assist your project from our offshore sites. Your suggestions for a pleasant and safe procedure will guide the selection of the infrastructure needed to enable communication, project management, and information security.
-                </p>
+             <p>
+              <b>We use both the interface design that help to define how users will interact to the end users. We use the approach that helps in building user centric interfaces with a meticulous examination of use cases.</b>
+             </p>
+             <h4>
+             Choose the delivery model that best suits your business needs
+             </h4>
+             <p>
+             We use both the interface design that help to define how users will interact to the end users. We use the approach that helps in building user centric interfaces with a meticulous examination of use cases.
+             </p>
+             <p>
+             We use both the interface design that help to define how users will interact to the end users. We use the approach that helps in building user centric interfaces with a meticulous examination of use cases
+             </p>
+             <p>
+             Our robust technology enhances the communication, better visibility and diverse infrastructure to ensure the right solutions for business.
+             </p>
+             <h4>
+             Offsite Delivery Model
+             </h4>
+             <p>
+             We provides the right solution through offsite delivery model and provides constant support to local needs. This model absorbs all the random changes in the market place and is designed to set the requirements needed when there is a change in the marketplace.
+             </p>
+             <h4>
+             Offshore Delivery Model
+             </h4>
+             <p>
+             In order to ensure smooth delivery all the entire project execution till final delivery is done by offshore teams. A jointly identify teams allows the clients full transparency, access and control on the team to ensure they can allocate, get status, do changes at short notices.
+             </p>
+             <h4>
+             Hybrid Delivery Model
+             </h4>
+             <p>
+             A hybrid delivery model is featured model that comprises both the offsite and onsite delivery. This model determine how internal and external deliveries can be structured and monitored with this model. It promotes high standardization using technology neural services delivery.
+             </p>
+             <h4>
+             Onsite Delivery Model
+             </h4>
+             <p>
+             Our onsite delivery model ensures a perfect match for each of your needs. Depending on your requirements.With onsite delivery model, clients can get full support and flexible caters to your resourcing requirements based on your changing needs.
+             </p>
+             <h4>
+             Global Delivery Model
+             </h4>
+             <p>
+             Global delivery model help in providing the benefits across the globe and help to drive down the costs and provide local resources to deliver the required success. It provides flexible option to the resources, decrease the risk and increase the productivity.
+             </p>
               </div>
               <div className="row gutter-y-30 service-details__box-wrapper">
                 <div className="col-md-6 col-sm-12">
@@ -208,7 +183,7 @@ const HireingDev = () => {
               </div> */}
             </div>
             <div className="col-lg-4 sidebar-column">
-              <ServiceSidebar2/>
+              <ServiceSidebar3/>
             </div>
           </div>
         </div>
@@ -217,4 +192,4 @@ const HireingDev = () => {
   );
 }
 
-export default HireingDev
+export default Delivery

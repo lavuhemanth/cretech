@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Breadcumb from '../../Breadcumb/Main'
-import itc from "../../../assets/images/services/hireing.png";
-import ServiceSidebar2 from '../ServiceSidebar2/Main'
+import itc from "../../../assets/images/services/managed.png";
+import ServiceSidebar2 from '../ServiceSidebar2/Main';
 
 
-const HireingDev = () => {
+const ManagedServices = () => {
 	// const [clicked, setClicked] = useState(0);
 	// const faqs = [
 	// 	{
@@ -27,7 +27,7 @@ const HireingDev = () => {
 	// ]
 	return (
     <>
-      <Breadcumb Title="Hire Develpoment" Breadcumb="SERVICES" />
+      <Breadcumb Title="Enterprise Managed IT Services" Breadcumb="SERVICES" />
       <section className="section-padding--bottom section-padding--top service-details--page">
         <div className="container">
           <div className="row ">
@@ -35,78 +35,56 @@ const HireingDev = () => {
               <div className="service-details__image">
                 <img src={itc} alt="" />
               </div>
-              <h3 className="service-details__title">Hire Develpoment</h3>
+              <h3 className="service-details__title">Enterprise Managed IT Services</h3>
               <div className="service-details__content">
-                <p>
-                The importance of delivery excellence cannot be overstated. In today's competitive business environment, companies must be able to rely on their teams to deliver high-quality products and services on time and on budget. That's why hiring a dedicated development team can be a great way to ensure delivery excellence.
-                </p>
-                <p>
-                A dedicated development team will work closely with your company to understand your specific needs and requirements. They will then put together a plan to deliver the best possible results. By working with a dedicated team, you can be sure that your company's delivery goals will be met.
-                </p>
-                <p>
-                Dedicated development teams are an excellent option to..
-                </p>
-                <p>
-                Obtain the necessary technical knowledge for your project.
-                </p>
-                <p>
-                Increase the talent of the internal staff.
-                </p>
-                <p>
-                team up on a new project or update an already one.
-                </p>
-                <p>
-                Get services that are adaptable at a fair price.
-                </p>
-                <p>
-                gain complete managerial authority over devs.
-                </p>
-
-                <h4>
-                 What are the various models for dedicated teams?
-                </h4>
-                <p>
-                  <b>1.a fully committed team.</b>
-                </p>
-                <p>
-                Utilize the skills of our team to provide end-to-end assistance for testing, product development, and managed IT service tasks. We take a targeted approach and give you the freedom to rearrange the team in accordance with the demands of your project. We use a team size-based monthly payment system that also includes fixed service costs.
-                </p>
-                <p>
-                  <b>2. on-call devoted crew</b>
-                </p>
-                <p>
-                Meet your ongoing and intermittent need for knowledgeable specialists to work together on projects. In order to attain the appropriate team competence to execute your duties, we will build on the experience of your core team. For lengthy projects with shifting requirements, the approach is perfect. Regarding the budget, actual expenses may differ from projections, and monthly payments are made pro rata.
-                </p>
-                <p>
-                  <b>3. devoted maintenance crew</b>
-                </p>
-                <p>
-                To keep up with your product or service's changing efficiency requirements, get help for ongoing maintenance. Teams in charge of maintenance make ensuring that products are delivered with the ability to provide results and are continually enhanced to suit shifting user expectations. Businesses choosing a maintenance team will pay a monthly fee based on the scope of the project and the number of team members.
-                </p>
-                <h4>
-                Where do we work from?
-                </h4>
-                <p>
-                With complete control over your project and operations, Sreeson's Dedicated Development Teams will provide extended team support for your projects on-site, off-site, and offshore in accordance with your unique business needs. Over the course of the engagement, we will also guarantee open communication and close cooperation.
-                </p>
-                <p>
-                  <b>1. On-site, committed team</b>
-                </p>
-                <p>
-                From the beginning, you or the internal project manager will be the direct reporting party for our on-site dedicated support teams, who will operate out of your location and on infrastructure you supply. You'll receive the assistance you require right at your location, maintaining total control over communications, operations, and security.
-                </p>
-                <p>
-                  <b>2. an off-site, committed team</b>
-                </p>
-                <p>
-                Our specialised off-site support staff will operate out of our offices in Kansas and New Jersey and travel to your location as needed. You will have full control over your project because we will give you the infrastructure you need to support communication, project management, and information security.
-                </p>
-                <p>
-                  <b>3. devoted offshore team</b>
-                </p>
-                <p>
-                No matter where you are located, our specialised offshore staff will assist your project from our offshore sites. Your suggestions for a pleasant and safe procedure will guide the selection of the infrastructure needed to enable communication, project management, and information security.
-                </p>
+              <p>
+                <b>Extra ordinary management services tailored to meet your needs, from managing your employee endpoints to fully managing your complex IT infrastructure. Focus on what you do best and we take care of the rest.</b>
+              </p>
+              <h4>
+              Enterprise IT Managed Services Provider Company
+              </h4>
+              <p>
+              Sreeson is an IT consulting and managed service providing company. We unlock the business potential by providing end to end IT management services and support for all technologies so that you can remain on the top of your business. Our end-to-end IT management services include expert-level Strategic Consulting, on-site or remote IT Management services, 24x7 remote Help Desk support, Cloud-based tools and technologies, and Information Security solutions. We monitor the business strategy and your services, review all your existing system and help to explore all the business opportunities. We analyze your needs and provide customized solutions for business. We can help you achieve success by aligning your business objectives with our IT management services.
+              </p>
+              <h4>
+              Our Proposition
+              </h4>
+              <p>
+                -Full IT support for your business
+              </p>
+              <p>
+                -Proactive support for your business
+              </p>
+              <p>
+                -Dedicated IT solutions and strategies for business.
+              </p>
+              <p>
+                    -Maintain all exclusive tools and portfolios for your business
+              </p>
+              <p>
+                -nnovative services for maintain and long term optimization.
+              </p>
+              <h4>
+              Our Capabilites
+              </h4>
+              <p>
+                <b>PRODUCT SUPPORT AND MANAGEMENT</b>
+              </p>
+              <p>
+              We ensure that you are always get the best from our product along with best-in-class IT infrastructure support, high quality technical support with access to certified skilled expertise, secure processes and innovative technology support solutions. We constantly monitor your products and help to gather the best valuable recommendation to optimize your system.
+              </p>
+              <p>
+                <b>IT TEAM AUGEMENTATION</b>
+              </p>
+              <p>
+              Our IT staffing services provide the speed, professional acumen and flexibility your team needs to scale quickly and complete development on time. We provide services for every project integrate with your current workflow, our dedicated software engineers are the best option to rapidly build-up a conveniently located, highly qualified and experienced team. Our team handles all your instances so that you can focus on your business.
+              </p>
+              <p>
+                <b>CLOUD SERVICES</b>
+              </p>
+              <p>
+              By providing virtual infrastructure on demand, companies enable IT teams to meet the infrastructure needs of the business more easily and cost-efficiently, scaling quickly while minimizing upfront capital expenses. We help in identifying the area of improvement, invoke robust, repeatable processes leading to future business growth
+              </p>
               </div>
               <div className="row gutter-y-30 service-details__box-wrapper">
                 <div className="col-md-6 col-sm-12">
@@ -217,4 +195,4 @@ const HireingDev = () => {
   );
 }
 
-export default HireingDev
+export default ManagedServices

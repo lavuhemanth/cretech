@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Breadcumb from '../../Breadcumb/Main'
-import itc from "../../../assets/images/services/hireing.png";
-import ServiceSidebar2 from '../ServiceSidebar2/Main'
+import ServiceSidebar from '../ServiceSidebar/Main'
+import itc from "../../../assets/images/services/bigdata.png";
 
 
-const HireingDev = () => {
+const Bigdata = () => {
 	// const [clicked, setClicked] = useState(0);
 	// const faqs = [
 	// 	{
@@ -27,7 +27,7 @@ const HireingDev = () => {
 	// ]
 	return (
     <>
-      <Breadcumb Title="Hire Develpoment" Breadcumb="SERVICES" />
+      <Breadcumb Title="Big Data Analytics Solutions" Breadcumb="SERVICES" />
       <section className="section-padding--bottom section-padding--top service-details--page">
         <div className="container">
           <div className="row ">
@@ -35,78 +35,80 @@ const HireingDev = () => {
               <div className="service-details__image">
                 <img src={itc} alt="" />
               </div>
-              <h3 className="service-details__title">Hire Develpoment</h3>
+              <h3 className="service-details__title">Big Data Analytics Solutions</h3>
               <div className="service-details__content">
-                <p>
-                The importance of delivery excellence cannot be overstated. In today's competitive business environment, companies must be able to rely on their teams to deliver high-quality products and services on time and on budget. That's why hiring a dedicated development team can be a great way to ensure delivery excellence.
-                </p>
-                <p>
-                A dedicated development team will work closely with your company to understand your specific needs and requirements. They will then put together a plan to deliver the best possible results. By working with a dedicated team, you can be sure that your company's delivery goals will be met.
-                </p>
-                <p>
-                Dedicated development teams are an excellent option to..
-                </p>
-                <p>
-                Obtain the necessary technical knowledge for your project.
-                </p>
-                <p>
-                Increase the talent of the internal staff.
-                </p>
-                <p>
-                team up on a new project or update an already one.
-                </p>
-                <p>
-                Get services that are adaptable at a fair price.
-                </p>
-                <p>
-                gain complete managerial authority over devs.
-                </p>
-
-                <h4>
-                 What are the various models for dedicated teams?
-                </h4>
-                <p>
-                  <b>1.a fully committed team.</b>
-                </p>
-                <p>
-                Utilize the skills of our team to provide end-to-end assistance for testing, product development, and managed IT service tasks. We take a targeted approach and give you the freedom to rearrange the team in accordance with the demands of your project. We use a team size-based monthly payment system that also includes fixed service costs.
-                </p>
-                <p>
-                  <b>2. on-call devoted crew</b>
-                </p>
-                <p>
-                Meet your ongoing and intermittent need for knowledgeable specialists to work together on projects. In order to attain the appropriate team competence to execute your duties, we will build on the experience of your core team. For lengthy projects with shifting requirements, the approach is perfect. Regarding the budget, actual expenses may differ from projections, and monthly payments are made pro rata.
-                </p>
-                <p>
-                  <b>3. devoted maintenance crew</b>
-                </p>
-                <p>
-                To keep up with your product or service's changing efficiency requirements, get help for ongoing maintenance. Teams in charge of maintenance make ensuring that products are delivered with the ability to provide results and are continually enhanced to suit shifting user expectations. Businesses choosing a maintenance team will pay a monthly fee based on the scope of the project and the number of team members.
-                </p>
-                <h4>
-                Where do we work from?
-                </h4>
-                <p>
-                With complete control over your project and operations, Sreeson's Dedicated Development Teams will provide extended team support for your projects on-site, off-site, and offshore in accordance with your unique business needs. Over the course of the engagement, we will also guarantee open communication and close cooperation.
-                </p>
-                <p>
-                  <b>1. On-site, committed team</b>
-                </p>
-                <p>
-                From the beginning, you or the internal project manager will be the direct reporting party for our on-site dedicated support teams, who will operate out of your location and on infrastructure you supply. You'll receive the assistance you require right at your location, maintaining total control over communications, operations, and security.
-                </p>
-                <p>
-                  <b>2. an off-site, committed team</b>
-                </p>
-                <p>
-                Our specialised off-site support staff will operate out of our offices in Kansas and New Jersey and travel to your location as needed. You will have full control over your project because we will give you the infrastructure you need to support communication, project management, and information security.
-                </p>
-                <p>
-                  <b>3. devoted offshore team</b>
-                </p>
-                <p>
-                No matter where you are located, our specialised offshore staff will assist your project from our offshore sites. Your suggestions for a pleasant and safe procedure will guide the selection of the infrastructure needed to enable communication, project management, and information security.
-                </p>
+              <p>
+                <b>Innovate a high end data analytics and actionable insights important for your technical competencies support big data analytics solutions.</b>
+              </p>
+              <h4>
+              Big Data Analytics Services
+              </h4>
+              <p>
+              We explore data from various resources, architect and strategize with our data technology. We offer complete services that harness big data, through our big data materialize a roadmap and alliance that aggregate IT strength and enable accelerated growth. We improve operational efficiencies and conduct feasibility test for your project.
+              </p>
+              <p>
+              Our strategy and consulting define and complement adopts structure approach from different platform and transformation. We create new insights through our big data and adopt ROI system. We help in exchanging diverse information and provide deepest insights and analyze before taking critical decision.
+              </p>
+              <p>
+              We focus in development of technology based on big data and then furnishing, optimizing data into useful insights. We help organization messed with the complex data, analyze it remove bugs and then furnish the best creative result help them to strive a head in their business.
+              </p>
+              <h4>
+              Big-Data Services
+              </h4>
+              <p>
+                <b>Apache Hadoopt</b>
+              </p>
+              <p>
+              Apache hadoop is a build in software for processing large amount of data. This help in data processing, data access, data guidance and governance of data. It is designed to handle failures of application and top services to handle the failures.
+              </p>
+              <p>
+                <b>Apache Hive</b>
+              </p>
+              <p>
+              This is simplified apache hadoop library that have all plug-in and server present in it. It has SQL data servers and the developers use that in successfully accessing the database within the organization without any risk and failures.
+              </p>
+              <p>
+                <b>Apache Mahout</b>
+              </p>
+              <p>
+              This is scala based library used in designing complex machine learning algorithms and data science. These help developers to build the easy driven projects based on machine learning algorithm with the AI.
+              </p>
+              <p>
+                <b>Apache Pig</b>
+              </p>
+              <p>
+              Apache pig is used for high data analysis and it contain some build in functions and variables that help in data sets ,it is based on apache hives and apache hadoop. We help in providing high standards to organization.
+              </p>
+              <p>
+                <b>Apache Thrift</b>
+              </p>
+              <p>
+              The Apache Thrift software framework, for scalable cross-language services development, combines a software stack with a code generation engine to build services that work efficiently and seamlessly between C++, Java, Python, PHP, Ruby, Erlang, Perl, Haskell, C#, Cocoa, JavaScript, Node.js, Smalltalk and Delphi and other languages.
+              </p>
+              <p>
+                <b>Apache Zookeeper</b>
+              </p>
+              <p>
+              Apache Zookeeper is an effort to develop and maintain an open-source server which enables highly reliable distributed coordination. Zookeeper is a centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services.
+              </p>
+              <p>
+                <b>Apache Kafka</b>
+              </p>
+              <p>
+              Apache Kafka is a community distributed event streaming platform capable of handling trillions of events a day. It has commercial features designed to enhance the streaming experience of both operators and developers in production, at massive scale. It will innovate, We need access to a wide stream of data, and that data must be integrated.
+              </p>
+              <p>
+                <b>NoSql Database</b>
+              </p>
+              <p>
+              We are specialized in designing a database that is not using the sql and we deliver the part that is based on mongo db, Couch based and Cassandra. Our database provide security, maintain and supporting of data.
+              </p>
+              <p>
+                <b>Apache Spark</b>
+              </p>
+              <p>
+              Apache spark is the lightning fast unified engine for big data and machine learning. It is committed to maintain large amount of data. With our apache spark we provide high versality and benefits and support to various big data apps and many more.
+              </p>
               </div>
               <div className="row gutter-y-30 service-details__box-wrapper">
                 <div className="col-md-6 col-sm-12">
@@ -208,7 +210,7 @@ const HireingDev = () => {
               </div> */}
             </div>
             <div className="col-lg-4 sidebar-column">
-              <ServiceSidebar2/>
+              <ServiceSidebar />
             </div>
           </div>
         </div>
@@ -217,4 +219,4 @@ const HireingDev = () => {
   );
 }
 
-export default HireingDev
+export default Bigdata

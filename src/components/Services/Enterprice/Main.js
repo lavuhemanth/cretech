@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Breadcumb from '../../Breadcumb/Main'
-import itc from "../../../assets/images/services/hireing.png";
-import ServiceSidebar2 from '../ServiceSidebar2/Main'
+import itc from "../../../assets/images/services/enterprisemobility.png";
+import ServiceSidebar2 from '../ServiceSidebar2/Main';
 
 
-const HireingDev = () => {
+const EnterPrice = () => {
 	// const [clicked, setClicked] = useState(0);
 	// const faqs = [
 	// 	{
@@ -27,7 +27,7 @@ const HireingDev = () => {
 	// ]
 	return (
     <>
-      <Breadcumb Title="Hire Develpoment" Breadcumb="SERVICES" />
+      <Breadcumb Title="Enterprise Mobility" Breadcumb="SERVICES" />
       <section className="section-padding--bottom section-padding--top service-details--page">
         <div className="container">
           <div className="row ">
@@ -35,78 +35,62 @@ const HireingDev = () => {
               <div className="service-details__image">
                 <img src={itc} alt="" />
               </div>
-              <h3 className="service-details__title">Hire Develpoment</h3>
+              <h3 className="service-details__title">Enterprise Mobility</h3>
               <div className="service-details__content">
-                <p>
-                The importance of delivery excellence cannot be overstated. In today's competitive business environment, companies must be able to rely on their teams to deliver high-quality products and services on time and on budget. That's why hiring a dedicated development team can be a great way to ensure delivery excellence.
-                </p>
-                <p>
-                A dedicated development team will work closely with your company to understand your specific needs and requirements. They will then put together a plan to deliver the best possible results. By working with a dedicated team, you can be sure that your company's delivery goals will be met.
-                </p>
-                <p>
-                Dedicated development teams are an excellent option to..
-                </p>
-                <p>
-                Obtain the necessary technical knowledge for your project.
-                </p>
-                <p>
-                Increase the talent of the internal staff.
-                </p>
-                <p>
-                team up on a new project or update an already one.
-                </p>
-                <p>
-                Get services that are adaptable at a fair price.
-                </p>
-                <p>
-                gain complete managerial authority over devs.
-                </p>
-
-                <h4>
-                 What are the various models for dedicated teams?
-                </h4>
-                <p>
-                  <b>1.a fully committed team.</b>
-                </p>
-                <p>
-                Utilize the skills of our team to provide end-to-end assistance for testing, product development, and managed IT service tasks. We take a targeted approach and give you the freedom to rearrange the team in accordance with the demands of your project. We use a team size-based monthly payment system that also includes fixed service costs.
-                </p>
-                <p>
-                  <b>2. on-call devoted crew</b>
-                </p>
-                <p>
-                Meet your ongoing and intermittent need for knowledgeable specialists to work together on projects. In order to attain the appropriate team competence to execute your duties, we will build on the experience of your core team. For lengthy projects with shifting requirements, the approach is perfect. Regarding the budget, actual expenses may differ from projections, and monthly payments are made pro rata.
-                </p>
-                <p>
-                  <b>3. devoted maintenance crew</b>
-                </p>
-                <p>
-                To keep up with your product or service's changing efficiency requirements, get help for ongoing maintenance. Teams in charge of maintenance make ensuring that products are delivered with the ability to provide results and are continually enhanced to suit shifting user expectations. Businesses choosing a maintenance team will pay a monthly fee based on the scope of the project and the number of team members.
-                </p>
-                <h4>
-                Where do we work from?
-                </h4>
-                <p>
-                With complete control over your project and operations, Sreeson's Dedicated Development Teams will provide extended team support for your projects on-site, off-site, and offshore in accordance with your unique business needs. Over the course of the engagement, we will also guarantee open communication and close cooperation.
-                </p>
-                <p>
-                  <b>1. On-site, committed team</b>
-                </p>
-                <p>
-                From the beginning, you or the internal project manager will be the direct reporting party for our on-site dedicated support teams, who will operate out of your location and on infrastructure you supply. You'll receive the assistance you require right at your location, maintaining total control over communications, operations, and security.
-                </p>
-                <p>
-                  <b>2. an off-site, committed team</b>
-                </p>
-                <p>
-                Our specialised off-site support staff will operate out of our offices in Kansas and New Jersey and travel to your location as needed. You will have full control over your project because we will give you the infrastructure you need to support communication, project management, and information security.
-                </p>
-                <p>
-                  <b>3. devoted offshore team</b>
-                </p>
-                <p>
-                No matter where you are located, our specialised offshore staff will assist your project from our offshore sites. Your suggestions for a pleasant and safe procedure will guide the selection of the infrastructure needed to enable communication, project management, and information security.
-                </p>
+              <p>
+                <b>Mobility enterprise services and solutions that provide more affluent and more personalized experience for our customers and we aimed at building highly secure ecosystem. We offer highly differentiated and strong enterprise mobility services and solutions.</b>
+              </p>
+              <h4>
+              Enterprise Mobility Service
+              </h4>
+              <p>
+              Sreeson builds a wealthy knowledge base and expertise of many back-end systems, enabling us to offer differentiated and strong enterprise mobility services and solutions. Enterprise mobility management services can save lots of time, reduce risk to manage your business and we have a bag of tricks to roaring your trade. We are a renowned Enterprise solutions company for a reason, i.e. top notch services, dedicated developer, serving in almost every area. Our team of mobility experts works with your organization to implement custom mobility solutions. On the contrary just gives the improper solution, but we never put the cart before the horse. We are experienced enough to serve in enterprise solution management and ready to give a bespoke solution so enterprise mobility can work for you. We are an enterprise app development company and always ahead of the curve to give all required feature. From managing the entire business we ensure the right enterprise solutions.
+              </p>
+              <h4>
+              Our Proposition
+              </h4>
+              <p>
+                -User experience app
+              </p>
+              <p>
+                -Design and implementation
+              </p>
+              <p>
+                -Scalability
+              </p>
+              <p>
+                -Accelerated Delivery
+              </p>
+              <p>
+                -Enterprise vertical solutions
+              </p>
+              <h4>
+              Our Capabilites
+              </h4>
+              <p>
+                <b>ENTERPRISE MOBILITY CONSULTING</b>
+              </p>
+              <p>
+              We offer the best mobility enterprise applications that facilitate seamless distribution of information to the employees, partners, and clients without entailing security risks. We have a competent team of mobility consultants with rich technological expertise and industry knowledge that makes them capable of delivering the best advice for implementing a successful mobility strategy to take the client's business forward. We give mobility advice on the basis of nature of situation.
+              </p>
+              <p>
+                <b>ENTERPRISE MANAGEMENT</b>
+              </p>
+              <p>
+              Our testing tools that work together to find the correlated results. We prioritize and manage vulnerabilities. We carefully devised full set of visualization metrics that you need the most. We define all security parameters and determine all parameters required for the app.
+              </p>
+              <p>
+                <b>MOBILE DEVICE MANAGEMENT AND DESIGN</b>
+              </p>
+              <p>
+              We define all managing to safeguard business purposes. We help you to monitor your device and help to maintain the security of data. Our team consist of certified experts who understand each and every module of the solution and have extensive hands on experience. Our Mobile device management help to optimize the functionality and security of mobile application network while minimizing cost and downtime. We always stay a of changing device types, policies security and update.
+              </p>
+              <p>
+                <b>APLICATION DEVELOPMENT</b>
+              </p>
+              <p>
+              Our application management services improve the application landscape, resulting in high availability of business applications, ensuring that they are pertinent to the changing business requirements and improving end-user experience. Our compliance-driven approach to application management services mitigates the risks.
+              </p>
               </div>
               <div className="row gutter-y-30 service-details__box-wrapper">
                 <div className="col-md-6 col-sm-12">
@@ -217,4 +201,4 @@ const HireingDev = () => {
   );
 }
 
-export default HireingDev
+export default EnterPrice

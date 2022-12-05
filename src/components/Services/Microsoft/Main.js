@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Breadcumb from '../../Breadcumb/Main'
-import ServiceSidebar from '../ServiceSidebar/Main'
 import itc from "../../../assets/images/services/microsoft.jpg";
+import ServiceSidebar2 from '../ServiceSidebar2/Main';
 
 
 const Microsoft = () => {
@@ -581,7 +581,7 @@ With Wizard IT, migrating to Azure is affordable and straightforward. We make su
               </div> */}
             </div>
             <div className="col-lg-4 sidebar-column">
-              <ServiceSidebar />
+              <ServiceSidebar2/>
             </div>
           </div>
         </div>

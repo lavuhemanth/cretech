@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Breadcumb from '../../Breadcumb/Main'
-import itc from "../../../assets/images/services/hireing.png";
-import ServiceSidebar2 from '../ServiceSidebar2/Main'
+import ServiceSidebar from '../ServiceSidebar/Main'
+import itc from "../../../assets/images/services/chatbot.jpg";
 
 
-const HireingDev = () => {
+const Chatbox = () => {
 	// const [clicked, setClicked] = useState(0);
 	// const faqs = [
 	// 	{
@@ -27,7 +27,7 @@ const HireingDev = () => {
 	// ]
 	return (
     <>
-      <Breadcumb Title="Hire Develpoment" Breadcumb="SERVICES" />
+      <Breadcumb Title="Chatbot Development" Breadcumb="SERVICES" />
       <section className="section-padding--bottom section-padding--top service-details--page">
         <div className="container">
           <div className="row ">
@@ -35,78 +35,36 @@ const HireingDev = () => {
               <div className="service-details__image">
                 <img src={itc} alt="" />
               </div>
-              <h3 className="service-details__title">Hire Develpoment</h3>
+              <h3 className="service-details__title">Chatbot Development</h3>
               <div className="service-details__content">
-                <p>
-                The importance of delivery excellence cannot be overstated. In today's competitive business environment, companies must be able to rely on their teams to deliver high-quality products and services on time and on budget. That's why hiring a dedicated development team can be a great way to ensure delivery excellence.
-                </p>
-                <p>
-                A dedicated development team will work closely with your company to understand your specific needs and requirements. They will then put together a plan to deliver the best possible results. By working with a dedicated team, you can be sure that your company's delivery goals will be met.
-                </p>
-                <p>
-                Dedicated development teams are an excellent option to..
-                </p>
-                <p>
-                Obtain the necessary technical knowledge for your project.
-                </p>
-                <p>
-                Increase the talent of the internal staff.
-                </p>
-                <p>
-                team up on a new project or update an already one.
-                </p>
-                <p>
-                Get services that are adaptable at a fair price.
-                </p>
-                <p>
-                gain complete managerial authority over devs.
-                </p>
-
-                <h4>
-                 What are the various models for dedicated teams?
-                </h4>
-                <p>
-                  <b>1.a fully committed team.</b>
-                </p>
-                <p>
-                Utilize the skills of our team to provide end-to-end assistance for testing, product development, and managed IT service tasks. We take a targeted approach and give you the freedom to rearrange the team in accordance with the demands of your project. We use a team size-based monthly payment system that also includes fixed service costs.
-                </p>
-                <p>
-                  <b>2. on-call devoted crew</b>
-                </p>
-                <p>
-                Meet your ongoing and intermittent need for knowledgeable specialists to work together on projects. In order to attain the appropriate team competence to execute your duties, we will build on the experience of your core team. For lengthy projects with shifting requirements, the approach is perfect. Regarding the budget, actual expenses may differ from projections, and monthly payments are made pro rata.
-                </p>
-                <p>
-                  <b>3. devoted maintenance crew</b>
-                </p>
-                <p>
-                To keep up with your product or service's changing efficiency requirements, get help for ongoing maintenance. Teams in charge of maintenance make ensuring that products are delivered with the ability to provide results and are continually enhanced to suit shifting user expectations. Businesses choosing a maintenance team will pay a monthly fee based on the scope of the project and the number of team members.
-                </p>
-                <h4>
-                Where do we work from?
-                </h4>
-                <p>
-                With complete control over your project and operations, Sreeson's Dedicated Development Teams will provide extended team support for your projects on-site, off-site, and offshore in accordance with your unique business needs. Over the course of the engagement, we will also guarantee open communication and close cooperation.
-                </p>
-                <p>
-                  <b>1. On-site, committed team</b>
-                </p>
-                <p>
-                From the beginning, you or the internal project manager will be the direct reporting party for our on-site dedicated support teams, who will operate out of your location and on infrastructure you supply. You'll receive the assistance you require right at your location, maintaining total control over communications, operations, and security.
-                </p>
-                <p>
-                  <b>2. an off-site, committed team</b>
-                </p>
-                <p>
-                Our specialised off-site support staff will operate out of our offices in Kansas and New Jersey and travel to your location as needed. You will have full control over your project because we will give you the infrastructure you need to support communication, project management, and information security.
-                </p>
-                <p>
-                  <b>3. devoted offshore team</b>
-                </p>
-                <p>
-                No matter where you are located, our specialised offshore staff will assist your project from our offshore sites. Your suggestions for a pleasant and safe procedure will guide the selection of the infrastructure needed to enable communication, project management, and information security.
-                </p>
+              <p>
+                <b>Get automated real time and natural conversation stimulators with our chabot development services. Build incredible chat bots that help you to communicate and engage with your customers across a wide range of platforms</b>
+              </p>
+              <h4>Chatbot Development Company</h4>
+              <p>
+              Sreeson offers a wide range of high-end, good quality Chatbot development services for startups and enterprises. With professional excellence, we bring edge-cutting solutions to satisfy the client's needs and propel their business to the next level.
+              </p>
+              <p>
+              provides highly sophisticated and smart Chatbot solutions that can be implemented into diverse domains such as service departments, e-commerce, entertainment, customer support, delivery services and healthcare.
+              </p>
+              <p>
+                Our developers develop Chatbots for every modern messaging platform. Sreeson helps you and your customers to find each other, regardless of the platform that's being used. Sreeson helps you to power your Chatbot with NLP & AI. It uses the most powerful tools in the market and also offers complete Chatbot solutions for Facebook, Twitter, Slack, Microsoft and many more.
+              </p>
+              <h4>
+                Internet Of Things Solutions
+              </h4>
+              <p>
+                <b>Bots Framework</b>
+              </p>
+              <p>
+              Bot Framework is an environment where bots are built and where their behaviour is deciphered. Bot development frameworks are software, that has done away with a whole lot of manual work that goes into building the entire chat process. Although, many bot frameworks boast 'write once deploy anywhere', you are more likely to create a separate Chatbot for each of your target messaging platforms. The Bot development framework consists of the Bot Builder SDK, Bot Connector, Developer Portal, and Bot Directory. There's also an emulator that you can use to test the developed Bot. Additionally, Bot Framework solutions are not good for beginners to learn chatbot development
+              </p>
+              <p>
+                <b>Bots Solutions</b>
+              </p>
+              <p>
+              Sreeson offers you bot solutions for multiple services like customer care, feedback, booking and payment. Sreeson customizes bots as per your business requirements and serves industries like Telecom, Healthcare, Education, Tourism, Finance, Insurance & Banking or Government functions. Our team focuses on developing bot solutions aimed at improving customer-facing interactions.
+              </p>
               </div>
               <div className="row gutter-y-30 service-details__box-wrapper">
                 <div className="col-md-6 col-sm-12">
@@ -208,7 +166,7 @@ const HireingDev = () => {
               </div> */}
             </div>
             <div className="col-lg-4 sidebar-column">
-              <ServiceSidebar2/>
+              <ServiceSidebar />
             </div>
           </div>
         </div>
@@ -217,4 +175,4 @@ const HireingDev = () => {
   );
 }
 
-export default HireingDev
+export default Chatbox
