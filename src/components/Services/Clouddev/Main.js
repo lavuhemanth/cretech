@@ -57,7 +57,7 @@ const Clouddev = () => {
                   <b>Devops</b>
                 </p>
                 <p>
-                  DevOps is a combination of two words i.e. Developers and Operations. DevOps has been developed to create a culture that may foster collaboration and Integration between the Development & the Operation teams. Our team creates a flexible and agile environment using DevOps to meet business requirements such as streamlined processes and powerful software that are faster and more efficient. Sreeson's DevOps consulting services give rise to a continuous workflow from development to operations to ensure updation of software/ apps as per the latest market trends.
+                  DevOps is a combination of two words i.e. Developers and Operations. DevOps has been developed to create a culture that may foster collaboration and Integration between the Development & the Operation teams. Our team creates a flexible and agile environment using DevOps to meet business requirements such as streamlined processes and powerful software that are faster and more efficient. Sreeson DevOps consulting services give rise to a continuous workflow from development to operations to ensure updation of software/ apps as per the latest market trends.
                 </p>
                 <p>
                   <b>Cloud</b>

@@ -114,7 +114,7 @@ const Contact = () => {
                   <div className="contact-one__item">
                     <h3 className="contact-one__item__title">Address</h3>
                     <p className="contact-one__item__text">
-                      80 Atlantic Avenue, Toronto, ON M6K 1X9
+                      330 5th Avenue SW, Suite 1800, Calgary, T2P 0J4
                       <br />
                       Canada
                     </p>
@@ -158,7 +158,7 @@ const Contact = () => {
                       </span>
                       <br />
                       <span>
-                        <b>CANADA</b> +1 (514) 623-8550
+                        <b>CANADA</b> +1 7802878705
                       </span>
                       <br />
                     </p>
@@ -223,7 +223,7 @@ const Contact = () => {
 
         <section className="google-map google-map--contact">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.456348845883!2d-79.42340808411676!3d43.638672979121814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3506cbb2ecc9%3A0x1660f18bd29ddb35!2s80%20Atlantic%20Ave%2C%20Toronto%2C%20ON%20M6K%201X9%2C%20Canada!5e0!3m2!1sen!2sin!4v1668097536527!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2508.230273283889!2d-114.0714057842221!3d51.048835751948026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53716ffb78be402f%3A0xbb200f05293c944a!2sCalgary%20Place%2C%20330%205%20Ave%20SW%20%231800%2C%20Calgary%2C%20AB%20T2P%200L3%2C%20Canada!5e0!3m2!1sen!2sin!4v1679908967488!5m2!1sen!2sin"
             className="google-map__one"
             title="gmap"
             allowFullScreen

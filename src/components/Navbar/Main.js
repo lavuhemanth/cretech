@@ -8,7 +8,12 @@ const Navbar = () => {
   const path = location.pathname
   const [sticky, setSticky] = useState(false)
   const [search, setSearch] = useState(false)
-  const [menu, setmenu] = useState({})
+  const [menu, setmenu] = useState({});
+  const [display, setDisplay] = useState(true);
+  const [windowSize, setWindowSize] = useState([
+    window.innerWidth,
+    window.innerHeight,
+  ]);
 
   const activeMenu = () => {
     if (path === "/" || path === "/home-02" || path === "/home-03") {
@@ -41,8 +46,33 @@ const Navbar = () => {
       live: false
     }).init();
     activeMenu()
-  }, [path])
+  }, [path]);
 
+  useEffect(() => {
+    const handleWindowResize = () => {
+      setWindowSize([window.innerWidth, window.innerHeight]);
+      if (windowSize[0] < 992) {
+        setDisplay(false)
+      } else {
+        setDisplay(true);
+      }
+    };
+
+    window.addEventListener("resize", handleWindowResize);
+
+    return () => {
+      window.removeEventListener("resize", handleWindowResize);
+    };
+  });
+  
+
+  const toggelMenu = () => {
+    if (display && windowSize[0] < 992) {
+      setDisplay(!display);
+    } else {
+      setDisplay(true);
+    }
+  };
   const isSticky = () => {
     const scrollTop = window.scrollY;
     scrollTop >= 141 ? setSticky(true) : setSticky(false);
@@ -50,7 +80,7 @@ const Navbar = () => {
 
   const navigate = () => {
     window.location.assign("https://calendly.com/sreeson");
-  }
+  } 
   return (
     <>
       <div className="topbar">
@@ -63,7 +93,7 @@ const Navbar = () => {
             </li>
             <li>
               <i className="fa fa-map-marker"></i>
-              80 Atlantic Avenue, Toronto, ON M6K 1X9, Canada
+              330 5th Avenue SW, Suite 1800, Calgary, T2P 0J4, Canada
             </li>
           </ul>
           <ul className="topbar__social">
@@ -117,8 +147,9 @@ const Navbar = () => {
         </div>
       </div>
       <nav
-        className={`main-menu sticky-header ${sticky && "sticky-header--cloned sticky-fixed"
-          }`}
+        className={`main-menu sticky-header ${
+          sticky && "sticky-header--cloned sticky-fixed"
+        }`}
       >
         <div className="container-fluid">
           <div className="main-menu__logo">
@@ -126,13 +157,15 @@ const Navbar = () => {
               <img src={Logo} width="100" height="43" alt="Sreeson" />
             </Link>
           </div>
-
-          <ul className="main-menu__list">
-            <li
-              className={`menu-item-has-children ${menu.home && "current"}`}
-            >
-              <Link to="/">Home</Link>
-              {/* <ul>
+          {display && (
+            <ul className="main-menu__list main-menu__mobile">
+              <li
+                className={`menu-item-has-children ${menu.home && "current"}`}
+              >
+                <Link to="/" onClick={() => toggelMenu()}>
+                  Home
+                </Link>
+                {/* <ul>
                                 <li><Link to="/">Home One</Link></li>
                                 <li><Link to="/home-02">Home Two</Link></li>
                                 <li><Link to="/home-03">Home Three</Link></li>
@@ -144,12 +177,14 @@ const Navbar = () => {
                                     </ul>
                                 </li>
                             </ul> */}
-            </li>
-            <li
-              className={`menu-item-has-children ${menu.pages && "current"}`}
-            >
-              <Link to="/about">About Us</Link>
-              {/* <ul>
+              </li>
+              <li
+                className={`menu-item-has-children ${menu.pages && "current"}`}
+              >
+                <Link to="/about" onClick={() => toggelMenu()}>
+                  About Us
+                </Link>
+                {/* <ul>
                   <li>
                     <Link to="/about">About Us</Link>
                   </li>
@@ -157,159 +192,225 @@ const Navbar = () => {
                     <Link to="/team">Our Team</Link>
                   </li>
                 </ul> */}
-            </li>
-            <li
-              className={`menu-item-has-children ${menu.services && "current"
+              </li>
+              <li
+                className={`menu-item-has-children ${
+                  menu.services && "current"
                 }`}
-            >
-              <Link to="/services">Services</Link>
-              <ul>
-                {/* <li>
+              >
+                <Link to="/services">Services</Link>
+                <ul>
+                  {/* <li>
                     <Link to="/service-01">Services 01</Link>
                   </li>
                   <li>
                     <Link to="/service-02">Services 02</Link>
                   </li> */}
-                <li>
-                  <Link to="">IT and Development</Link>
-                  <ul>
-                    <li>
-                      <Link to="/Webapp">Web Application</Link>
-                    </li>
-                    <li>
-                      <Link to="/mobileapp">Mobile App</Link>
-                    </li>
-                    <li>
-                      <Link to="/frontend">Frontend Development</Link>
-                    </li>
-                    <li>
-                      <Link to="/Clouddev">Cloud & DevOps</Link>
-                    </li>
-                    <li>
-                      <Link to="/Chatbot">Chatbot Development</Link>
-                    </li>
-                    <li>
-                      <Link to="/Bigdata">Big Data</Link>
-                    </li>
-                    <li>
-                      <Link to="/qa-testing">QA & Testing</Link>
-                    </li>
-                    <li>
-                      <Link to="/Cloudintegration">Cloud Integration</Link>
-                    </li>
-                    <li>
-                      <Link to="/ITmerit">IT Metrics And Dashboard </Link>
-                    </li>
-                    <li>
-                      <Link to="/cyber-security">Cyber Security</Link>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <Link to="/it-consultant">IT Consultant</Link>
-                  <ul>
-                    <li>
-                      <Link to="/hireing">Hire Development</Link>
-                    </li>
-                    <li>
-                      <Link to="/microsoftenterprise">Microsoft </Link>
-                    </li>
-                    <li>
-                      <Link to="/Iot">IOT</Link>
-                    </li>
-                    <li>
-                      <Link to="/Ar">AR/VR</Link>
-                    </li>
-                    <li>
-                      <Link to="/Business">Business / Technology </Link>
-                    </li>
-                    <li>
-                      <Link to="/ProductPrototype">Product Prototype</Link>
-                    </li>
-                    <li>
-                      <Link to="/ManagedServices">Managed Services</Link>
-                    </li>
-                    <li>
-                      <Link to="/Enterprice">Enterprise Mobility</Link>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <Link to="/">Processes</Link>
-                  <ul>
-                    <li>
-                      <Link to="/DevelopMethodology">Development Methodology</Link>
-                    </li>
-                    <li>
-                      <Link to="/Delivery">Delivery Models</Link>
-                    </li>
-                    <li>
-                      <Link to="/Pricing">Pricing Models</Link>
-                    </li>
-                  </ul>
-                </li>
-                {/* <li>
+                  <li>
+                    <Link to="">IT and Development</Link>
+                    <ul>
+                      <li>
+                        <Link onClick={() => toggelMenu()} to="/Webapp">
+                          Web Application
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={() => toggelMenu()} to="/mobileapp">
+                          Mobile App
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={() => toggelMenu()} to="/frontend">
+                          Frontend Development
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={() => toggelMenu()} to="/Clouddev">
+                          Cloud & DevOps
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={() => toggelMenu()} to="/Chatbot">
+                          Chatbot Development
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={() => toggelMenu()} to="/Bigdata">
+                          Big Data
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={() => toggelMenu()} to="/qa-testing">
+                          QA & Testing
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={() => toggelMenu()} to="/Cloudintegration">
+                          Cloud Integration
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={() => toggelMenu()} to="/ITmerit">
+                          IT Metrics And Dashboard{" "}
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={() => toggelMenu()} to="/cyber-security">
+                          Cyber Security
+                        </Link>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <Link to="/it-consultant">IT Consultant</Link>
+                    <ul>
+                      <li>
+                        <Link onClick={() => toggelMenu()} to="/hireing">
+                          Hire Development
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={() => toggelMenu()} to="/microsoftenterprise">
+                          Microsoft{" "}
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={() => toggelMenu()} to="/Iot">
+                          IOT
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={() => toggelMenu()} to="/Ar">
+                          AR/VR
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={() => toggelMenu()} to="/Business">
+                          Business / Technology{" "}
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={() => toggelMenu()} to="/ProductPrototype">
+                          Product Prototype
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={() => toggelMenu()} to="/ManagedServices">
+                          Managed Services
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={() => toggelMenu()} to="/Enterprice">
+                          Enterprise Mobility
+                        </Link>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <Link to="/">Processes</Link>
+                    <ul>
+                      <li>
+                        <Link onClick={() => toggelMenu()} to="/DevelopMethodology">
+                          Development Methodology
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={() => toggelMenu()} to="/Delivery">
+                          Delivery Models
+                        </Link>
+                      </li>
+                      <li>
+                        <Link onClick={() => toggelMenu()} to="/Pricing">
+                          Pricing Models
+                        </Link>
+                      </li>
+                    </ul>
+                  </li>
+                  {/* <li>
                   <Link to="/it-management">IT Management</Link>
                 </li>
                 <li>
                   <Link to="/infrastructure-plan">Infrastructure Plan</Link>
                 </li> */}
+                </ul>
+              </li>
 
-              </ul>
-            </li>
-
-            <li
-              className={`menu-item-has-children ${menu.services && "current"
+              <li
+                className={`menu-item-has-children ${
+                  menu.services && "current"
                 }`}
-            >
-              <Link to="/">Industries</Link>
-              <ul>
-                {/* <li>
+              >
+                <Link to="/">Industries</Link>
+                <ul>
+                  {/* <li>
                     <Link to="/service-01">Services 01</Link>
                   </li>
                   <li>
                     <Link to="/service-02">Services 02</Link>
                   </li> */}
-                <li>
-                  <Link to="/Healthcare">Healthcare</Link>
-                </li>
-                <li>
-                  <Link to="/Education">Education /eLearning</Link>
-                </li>
-                <li>
-                  <Link to="/Social">Social Network</Link>
-                </li>
-                <li>
-                  <Link to="/Retail">Retail</Link>
-                </li>
-                <li>
-                  <Link to="/Manufactur">Manufactring</Link>
-                </li>
-                <li>
-                  <Link to="/Ecommerce">eCommerce</Link>
-                </li>
-                <li>
-                  <Link to="/Energy">Energy</Link>
-                </li>
-                <li>
-                  <Link to="/Travel">Travel & Hospitality</Link>
-                </li>
-                <li>
-                  <Link to="/RealEstate">Real Estate </Link>
-                </li>
-                <li>
-                  <Link to="/Media">Media & Entertainment</Link>
-                </li>
-                <li>
-                  <Link to="/Logistics">Logistics & Distribution</Link>
-                </li>
-                <li>
-                  <Link to="/Construction">Construction</Link>
-                </li>
-              </ul>
-
-            </li>
-            {/* <li
+                  <li>
+                    <Link onClick={() => toggelMenu()} to="/Healthcare">
+                      Healthcare
+                    </Link>
+                  </li>
+                  <li>
+                    <Link onClick={() => toggelMenu()} to="/Education">
+                      Education /eLearning
+                    </Link>
+                  </li>
+                  <li>
+                    <Link onClick={() => toggelMenu()} to="/Social">
+                      Social Network
+                    </Link>
+                  </li>
+                  <li>
+                    <Link onClick={() => toggelMenu()} to="/Retail">
+                      Retail
+                    </Link>
+                  </li>
+                  <li>
+                    <Link onClick={() => toggelMenu()} to="/Manufactur">
+                      Manufactring
+                    </Link>
+                  </li>
+                  <li>
+                    <Link onClick={() => toggelMenu()} to="/Ecommerce">
+                      eCommerce
+                    </Link>
+                  </li>
+                  <li>
+                    <Link onClick={() => toggelMenu()} to="/Energy">
+                      Energy
+                    </Link>
+                  </li>
+                  <li>
+                    <Link onClick={() => toggelMenu()} to="/Travel">
+                      Travel & Hospitality
+                    </Link>
+                  </li>
+                  <li>
+                    <Link onClick={() => toggelMenu()} to="/RealEstate">
+                      Real Estate{" "}
+                    </Link>
+                  </li>
+                  <li>
+                    <Link onClick={() => toggelMenu()} to="/Media">
+                      Media & Entertainment
+                    </Link>
+                  </li>
+                  <li>
+                    <Link onClick={() => toggelMenu()} to="/Logistics">
+                      Logistics & Distribution
+                    </Link>
+                  </li>
+                  <li>
+                    <Link onClick={() => toggelMenu()} to="/Construction">
+                      Construction
+                    </Link>
+                  </li>
+                </ul>
+              </li>
+              {/* <li
                 className={`menu-item-has-children ${
                   menu.project && "current"
                 }`}
@@ -337,16 +438,23 @@ const Navbar = () => {
                   </li>
                 </ul>
               </li> */}
-            <li
-              className={`menu-item-has-children ${menu.contact && "current"
+              <li
+                className={`menu-item-has-children ${
+                  menu.contact && "current"
                 }`}
-            >
-              <Link to="/contact">Contact</Link>
-            </li>
-          </ul>
-
+              >
+                <Link to="/contact" onClick={() => toggelMenu()}>
+                  Contact
+                </Link>
+              </li>
+            </ul>
+          )}
           <div className="main-menu__right">
-            <Link to="#" className="mobile-nav__toggler">
+            <Link
+              to="#"
+              className="mobile-nav__toggler"
+              onClick={() => setDisplay(!display)}
+            >
               <span></span>
               <span></span>
               <span></span>
@@ -354,7 +462,7 @@ const Navbar = () => {
             <Link
               to="#"
               onClick={() => setSearch(true)}
-              className="search-toggler"
+              className="search-toggler none"
             >
               <i className="icon-magnifying-glass"></i>
             </Link>

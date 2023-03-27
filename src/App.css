@@ -40,3 +40,8 @@ img.react-parallax-bgimage{
     transform: rotate(360deg);
   }
 }
+
+
+.none {
+  display: none;
+}

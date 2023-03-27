@@ -220,7 +220,7 @@ const Home2 = () => {
 										<b>+ 92 ( 8800 ) 9860</b>
 									</span>
 								</Link>
-								<Link to="#" className="search-toggler">
+								<Link to="#" className="search-toggler none">
 									<i className="icon-magnifying-glass"></i>
 								</Link>
 							</div>

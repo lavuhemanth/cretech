@@ -87,7 +87,7 @@ const HireingDev = () => {
                 Where do we work from?
                 </h4>
                 <p>
-                With complete control over your project and operations, Sreeson's Dedicated Development Teams will provide extended team support for your projects on-site, off-site, and offshore in accordance with your unique business needs. Over the course of the engagement, we will also guarantee open communication and close cooperation.
+                With complete control over your project and operations, Sreeson Dedicated Development Teams will provide extended team support for your projects on-site, off-site, and offshore in accordance with your unique business needs. Over the course of the engagement, we will also guarantee open communication and close cooperation.
                 </p>
                 <p>
                   <b>1. On-site, committed team</b>

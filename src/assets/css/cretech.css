@@ -991,12 +991,28 @@ a:visited {
 }
 
 .main-menu__list {
-  display: none;
+  /* display: none; */
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
+@media only screen and (max-width: 991px) {
+		.main-menu__list {
+				position: absolute !important;
+				list-style: none;
+				background: white;
+				bottom: 0px;
+				z-index: 9999;
+				top: 60px;
+				left: 0px;
+				color: white;
+				right: 0px;
+		}
+    .main-menu__list > li + li {
+      margin-left: 5px !important;
+    }
+	}
 @media (min-width: 1200px) {
   .main-menu__list {
     display: -webkit-box;

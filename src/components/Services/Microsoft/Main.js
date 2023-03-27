@@ -38,7 +38,7 @@ const Microsoft = () => {
               <h3 className="service-details__title">Microsoft Enterprise Service</h3>
               <div className="service-details__content">
                 <p>
-                Our experience in the corporate sector, the long-term employment of important personnel, and the active exchange of ideas among team members—we like what we do—are the foundations of Sreeson's success with Microsoft technology.
+                Our experience in the corporate sector, the long-term employment of important personnel, and the active exchange of ideas among team members—we like what we do—are the foundations of Sreeson success with Microsoft technology.
                 </p>
                 <p>
                 It's not only the technology; we also want to dazzle clients with concepts that boost revenue and cut expenditures. Through the development of bespoke online and cloud apps and the replacement of outdated systems, we have streamlined businesses all over the world.
@@ -93,7 +93,7 @@ const Microsoft = () => {
                   <b>2. Application Development for ASP.NET</b>
                 </p>
                 <p>
-                Sreeson's USP is customised ERP-integrated solutions and services. Our professionals can upgrade your company skills by transforming your current system with tailored ASP.NET B2B and B2C solutions.
+                Sreeson USP is customised ERP-integrated solutions and services. Our professionals can upgrade your company skills by transforming your current system with tailored ASP.NET B2B and B2C solutions.
                 </p>
                 <p>
                   <b>3. DEVELOPMENT OF ASP.NET WEB APPLICATIONS</b>

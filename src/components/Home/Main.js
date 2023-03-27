@@ -258,14 +258,14 @@ const Home = () => {
                     </h2>
                   </div>
                   <div className="about-five__text">
-                    SREESONS's IT consulting services can help improve your
+                    SREESON IT consulting services can help improve your
                     company's performance, scalability, and competitiveness
                     through the right technology enablement and usage. We can
                     expertly guide your IT and digital transformation
                     initiatives, from strategy to implementation.
                   </div>
                   <div className="about-five__text">
-                    SREESONS has a team of highly experienced IT consultants who
+                    SREESON has a team of highly experienced IT consultants who
                     can help assess your company's IT needs and recommend the
                     best solutions to improve performance and competitiveness.
                     Contact us today to learn more about our IT consulting
