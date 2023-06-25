@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#000000" />
 
     <!-- google font -->
@@ -55,5 +55,20 @@
     <script src="assets/vendors/youtube-popup/youtube-popup.jquery.js"></script>
     <!-- template js -->
     <script src="assets/js/cretech.js"></script>
+    <script>
+      let width = screen.width;
+      function setZoom(value) {
+        document.body.style.zoom = value;
+      };
+      if (width >= 1500 && width <= 1850) {
+        
+        console.log('Widht 1: ', width);
+      setZoom('80%');
+    }
+    if (width >= 1850) {
+      console.log('Widht 2: ', width);
+      setZoom('100%');
+    }
+    </script>
   </body>
 </html>

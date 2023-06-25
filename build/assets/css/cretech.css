@@ -982,7 +982,6 @@ a:visited {
     padding-right: 0;
   }
 }
-
 @media (min-width: 992px) {
   .main-menu .container-fluid {
     padding-left: 60px;
@@ -990,12 +989,12 @@ a:visited {
   }
 }
 
-.main-menu__list {
+/* .main-menu__list {
   display: none;
   margin: 0;
   padding: 0;
   list-style: none;
-}
+} */
 
 @media (min-width: 1200px) {
   .main-menu__list {
