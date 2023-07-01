@@ -6,17 +6,17 @@ import emailjs from "emailjs-com";
 import { ToastContainer, toast } from "react-toastify";
   import "react-toastify/dist/ReactToastify.css";
 
+  const emailDomains = ['gmail']
 
 const Contact = () => {
 
   const [email, setEmail] = useState("");
   const [body, setBody] = useState("")
   const [name, setName] = useState("");
+  const [emailError, setEmailError] = useState(false);
     const handleSubmit = (event) =>  {
       event.preventDefault();
-      debugger
-      emailjs.send("service_dklncb9", "template_8bmuiyv", { name, email, body }, '0wY3XRYMuz7nWwg0I').then(data => {
-        console.log('data :: ', data)
+      emailjs.send("service_ix9vtvm", "template_qyes7j9", { name, email, body }, '1Z-5F-1LyMROSd7qT').then(data => {
         if (data.status === 200) {
           toast.success("Mail Sent successfully", {
             position: "top-right",
@@ -48,6 +48,20 @@ const Contact = () => {
           });
         });
     };
+
+    const handleEmail = (e) => {
+      setEmailError(false);
+      const value = e.target.value;
+      const filterMail = emailDomains.filter(domain => value.includes(domain));
+      console.log(filterMail, ' :: filterMail');
+      if (filterMail.length > 0) {
+        setEmailError(true);
+        setEmail('');
+        return;
+      }
+      setEmail(e.target.value)
+    }
+
     return (
       <>
         <ToastContainer />
@@ -78,12 +92,14 @@ const Contact = () => {
                     </div>
                     <div className="col-lg-6 col-md-12">
                       <input
+                        className={emailError ? 'danger-border' : 'cool-border'}
                         type="email"
                         placeholder="Email address"
                         name="email"
-                        onChange={(e) => setEmail(e.target.value)}
+                        onChange={(e) => handleEmail(e)}
                         required
                       />
+                      {emailError ? (<span class="red">Please try with your company mail `domain.com`</span>) : ''}
                     </div>
                     <div className="col-lg-12 col-md-12">
                       <textarea
@@ -154,11 +170,7 @@ const Contact = () => {
                     <h3 className="contact-one__item__title">Mobile</h3>
                     <p className="contact-one__item__text">
                       <span>
-                        <b>INDIA</b> +91 9972392949
-                      </span>
-                      <br />
-                      <span>
-                        <b>CANADA</b> +1 7802878705
+                        <b>CANADA</b> +1 5878831136
                       </span>
                       <br />
                     </p>
