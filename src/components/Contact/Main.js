@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import BG from '../../assets/images/background/contact-one-bg-1-1.png'
 import Breadcumb from '../Breadcumb/Main';
 import emailjs from "emailjs-com";
 import { ToastContainer, toast } from "react-toastify";
@@ -125,7 +124,6 @@ const Contact = () => {
                 <div
                   className="contact-one__info wow fadeInRight"
                   data-wow-duration="1500ms"
-                  style={{ backgroundImage: `url(${BG})` }}
                 >
                   <div className="contact-one__item">
                     <h3 className="contact-one__item__title">Address</h3>
