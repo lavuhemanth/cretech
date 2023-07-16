@@ -75,7 +75,7 @@ const Navbar = () => {
   };
   const isSticky = () => {
     const scrollTop = window.scrollY;
-    scrollTop >= 141 ? setSticky(true) : setSticky(false);
+    scrollTop >= 50 ? setSticky(true) : setSticky(false);
   }
 
   const navigate = () => {

@@ -997,14 +997,15 @@ a:visited {
   list-style: none;
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1200px) {
 		.main-menu__list {
 				position: absolute !important;
 				list-style: none;
 				background: white;
 				bottom: 0px;
 				z-index: 9999;
-				top: 60px;
+				top: 130px;
+        padding-left: 20px;
 				left: 0px;
 				color: white;
 				right: 0px;
@@ -1013,6 +1014,21 @@ a:visited {
       margin-left: 5px !important;
     }
 	}
+
+
+  @media (max-width:835px){
+  
+    .main-menu__list {
+      top: 80px !important;
+    }
+  }
+
+  @media (max-width:767px) {
+    .main-menu__list {
+      top:72px !important;
+    }
+  }
+
 @media (min-width: 1200px) {
   .main-menu__list {
     display: -webkit-box;
