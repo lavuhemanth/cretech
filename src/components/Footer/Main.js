@@ -4,6 +4,7 @@ import Logo from '../../assets/images/Desktop.png'
 // import emailjs from 'emailjs-com';
 
 const Footer = () => {
+  
     const location = useLocation();
     const [footerPadding, setfooterPadding] = useState(false);
     useEffect(() => {
